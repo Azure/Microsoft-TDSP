@@ -50,9 +50,9 @@ This tutorial uses abbreviated names for repositories and directories. These def
 
 ### Pre-requisites for cloning repositories and checking code in and out
  
-- Git must be installed on your machine. If you are using a Data Science Virtual Machine (DSVM), Git has been pre-installed and you are good to go. Otherwise, see the sections **Appendix** in the [Data science resources](data-science-process-resources.md) tutorial.  
+- Git must be installed on your machine. If you are using a Data Science Virtual Machine (DSVM), Git has been pre-installed and you are good to go. Otherwise, see the sections **Appendix** in the [Data science resources](team-data-science-process-resources.md) tutorial.  
 - If you are using a **Windows DSVM**, you need to have [Git Credential Manager (GCM)](https://github.com/Microsoft/Git-Credential-Manager-for-Windows) installed on your machine. In the README.md file, scroll down to the **Download and Install** section and click the *latest installer*. This takes you to the latest installer page. Download the .exe installer from here and run it. 
-- If you are using **Linux DSVM**, create an SSH public key on your DSVM and add it to your group VSTS server. For more information about SSH, see the **Create SSH public key** section in [Data science resources](data-science-process-resources.md) topic.
+- If you are using **Linux DSVM**, create an SSH public key on your DSVM and add it to your group VSTS server. For more information about SSH, see the **Create SSH public key** section in [Data science resources](team-data-science-process-resources.md) topic.
 
 
 ## 1. Create Account on VSTS server
@@ -304,6 +304,6 @@ Finally, change to the **GitRepos\GroupCommon\GroupUtilities** directory and run
 
 ## 6. Add group members to the group server
 
-From your group VSTS server's homepage, click the **gear icon** next to your user name in the upper right corner, then select the **Security** tab. You can add members to your group here with various permissions. For more information, see the **Security Control** section in [Data science resources](data-science-process-resources.md) topic.
+From your group VSTS server's homepage, click the **gear icon** next to your user name in the upper right corner, then select the **Security** tab. You can add members to your group here with various permissions. For more information, see the **Security Control** section in [Data science resources](team-data-science-process-resources.md) topic.
 
 ![27](./media/team-data-science-process-group-manager-tasks/add_member_to_group.PNG) 
