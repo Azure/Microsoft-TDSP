@@ -403,7 +403,7 @@ If you do not have your Azure file storage information on a text file, you can f
 
 ## 5. Set up security control policy 
 
-From your group VSTS server's homepage, click the **gear icon** next to your user name in the upper right corner, then select the **Security** tab. You can add members to your team here with various permissions. For more information, see **Security Control** section in [Data science resources](data-science-process-resources.md) topic.
+From your group VSTS server's homepage, click the **gear icon** next to your user name in the upper right corner, then select the **Security** tab. You can add members to your team here with various permissions. For more information, see **Security Control** section in [Data science resources](team-data-science-process-resources.md) topic.
 
 ![44](./media/team-data-science-process-team-lead-tasks/team-leads-44-add-team-members.png)
 
