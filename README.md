@@ -15,9 +15,9 @@ We would love to hear back from you. Should you have any questions or suggestion
 
 ## Make TDSP Better, Together
 
-We believe that with the help of the data science community, TDSP can be more efficient, and can benefit more enterprises and more data scientists. We warmly welcome you to contribute to TDSP, either on TDSP documentation or on workflow design. 
+We believe that with the help of the data science community, TDSP can be more efficient, and can benefit more enterprises and more data scientists. We warmly welcome you to contribute to TDSP, either on TDSP documentation or on workflow design. If you know some better tools for versioning or work items management, feel free to contribute pages at [TDSP/wiki](https://github.com/Azure/Microsoft-TDSP/wiki). 
 
-If you know some better tools for versioning or work items management, feel free to contribute pages at [TDSP/wiki](https://github.com/Azure/Microsoft-TDSP/wiki). If you have some useful data science utilities to share, we encourage you to contribute to 
+If you have some useful data science utilities to share, we encourage you to contribute to 
 the [TDSP-Utilities Github repository](https://github.com/Azure/Azure-TDSP-Utilities).  
 
 To know more about TDSP and about how to adopt TDSP, check out TDSP documents in [Docs](Docs) directory. 
