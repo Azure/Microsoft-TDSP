@@ -53,7 +53,7 @@ We provide templates for the folder structure and required documents. The folder
 
 ![TDSP_DIR_STRUCT](./media/team-data-science-process-overview/tdsp-dir-structure.png) 
 
-The directory structure can be cloned from [Github](http://aka.ms/tdspprojtemplate). 
+The directory structure can be cloned from [Github](https://github.com/Azure/Azure-TDSP-ProjectTemplate). 
 
 ## 3. Management of Analytics Infrastructure
 TDSP provides recommendations for managing shared analytics and storage infrastructure such as cloud file systems for storing datasets, databases, Big Data (Hadoop, Spark) clusters, and machine learning services. The analytics and storage infrastructure can be on the cloud or On-premises. This is where raw and processed datasets are stored. This infrastructure enables reproducible analysis. It also avoids duplication, which can lead to inconsistencies and unnecessary infrastructure costs. Tools are provided to provision the shared resources, track them, and allow each team member to connect to those resources securely. It is also a good practice have project members create a consistent compute environment so experiments can be replicated and validated by different team members. 
@@ -64,7 +64,7 @@ Here is an example of a team working on multiple projects and sharing various cl
 ## 4. Productivity tools and utilities
 
 Introducing processes in most organizations is challenging. By providing tools to implement the data science process and lifecycle, we not only get the benefits of productivity but also of consistency in its adoption. TDSP provides an initial set of tools and scripts to jump start adoption of TDSP within a team and to automate some of the common tasks in the data science lifecycle such as data exploration and baseline modeling. There is a well-defined structure provided for individuals to contribute shared tools and utilities into their team’s shared code repository.  These resources can then be leveraged by other projects within the team or the organization. In future TDSP also plans to enable the contributions of tools and utilities to the whole community. 
-The TDSP utilities can be cloned from [Github](http://aka.ms/tdsputilities). 
+The TDSP utilities can be cloned from [Github](https://github.com/Azure/Azure-TDSP-Utilities). 
 
 ## Next steps: [Team Data Science Process: Roles and tasks](./team-data-science-process-roles-tasks.md)
 
