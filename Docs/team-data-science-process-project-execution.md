@@ -209,7 +209,7 @@ You can also use the following Git commands to merge your working branch to its 
 
 This R markdown-based utility provides a flexible and interactive tool to evaluate and explore data sets. Users can quickly generate reports from the data set with minimal coding. Users can click buttons to export the exploration results he sees in the interactive tool to a final report, which can be delivered to clients or used to make decisions on which variables to include in the subsequent modeling step.
 
-At this time, the tool only works on data-frames in memory. A .yaml file is needed to specify the parameters of the data-set to be explored. For more information, see [Data-Quality-Report-Utility](https://dg-ads.visualstudio.com/DGADSCommon/DGADSCommon%20Team/_git/Utilities?path=%2FDataScienceUtilities%2FDataReport-Utils%2FIDEAR.html&version=GBmaster&_a=contents).
+At this time, the tool only works on data-frames in memory. A .yaml file is needed to specify the parameters of the data-set to be explored. For more information, see [IDEAR in TDSP Data Science Utilities](https://github.com/Azure/Azure-TDSP-Utilities/tree/master/DataScienceUtilities/DataReport-Utils).
 
 
 ##  11. <a name='ModelingUtility-11'></a>Baseline Modeling and Reporting Utility
@@ -231,7 +231,7 @@ A Yaml file is used to specify:
 
 The number of algorithms, the number of folds for optimization, the hyper-parameters, and the number of hyper-parameter sets to sweep over can also be modified in the Yaml file to run the models quickly. For example, they can be run with a lower number of CV folds, a lower number of parameter sets. They can also be run more comprehensively with a higher number of CV folds or a larger number of parameter sets, if that is warranted.
 
-For more information, see [Modeling-Utility](https://dg-ads.visualstudio.com/DGADSCommon/DGADSCommon%20Team/_git/Utilities?path=%2FDataScienceUtilities%2FModeling%2FModeling-Utility.html&version=GBmaster&_a=contents).
+For more information, see [Automated Modeling and Reporting Utility in TDSP Data Science Utilities](https://github.com/Azure/Azure-TDSP-Utilities/tree/master/DataScienceUtilities/Modeling).
 
 
 ##  12. <a name='PowerBI-12'></a>Tracking progress of projects with Power BI dashboards
