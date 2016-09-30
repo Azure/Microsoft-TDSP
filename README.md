@@ -1,6 +1,6 @@
 # Team Data Science Process from Microsoft
 
-[**Overview**](Docs/README.md) | [**Roles and Tasks**](Docs/team-data-science-process-roles-tasks.md) | [**Project Execution**](Docs/team-data-science-process-project-execution.md) | [**Utilities**](https://github.com/Azure/Azure-TDSP-Utilities)
+[**Overview**](Docs/README.md) | [**Roles and Tasks**](Docs/team-data-science-process-roles-tasks.md) | [**Project Execution**](Docs/team-data-science-process-project-execution.md) | [**Utilities**](https://github.com/Azure/Azure-TDSP-Utilities) | [**Project Template**](https://github.com/Azure/Azure-TDSP-ProjectTemplate)
 
 This repository contains the **Team Data Science Process (TDSP) from Microsoft**. 
 TDSP is an agile, iterative, data science methodology to improve collaboration and team learning. It is supported through a lifecycle definition, standard project structure, artifact templates, and tools for productive data science. 
