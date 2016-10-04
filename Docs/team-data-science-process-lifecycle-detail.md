@@ -91,7 +91,7 @@ In addition to the initial ingestion of data, you will typically need to setup a
  
 **Checkpoint Decision**: Before we begin to do the full feature engineering and model building process, we can reevaluate the project to determine value in continuing this effort. We may be ready to proceed, need to collect more data, or it’s possible the data does not exist to answer the question.
 
- ## 3. Modeling
+## 3. Modeling
  
  **Goal**: The goals for this stage are:
   * Develop new attributes or data features (also known as feature engineering), for building the machine learning model.
