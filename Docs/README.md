@@ -37,7 +37,9 @@ Data Science is a highly iterative discovery process with emphasis on evaluating
 
 ![TDSP_LIFECYCLE](./media/team-data-science-process-overview/tdsp-lifecycle.png) 
 
-The following diagram provides a more detailed task view for each of the role working together on a data science initiative in each stage of the lifecycle. The prescribed documentation artifacts are indicated in the diagram too. 
+Details of each stage of the lifecycle in TDSP are found [here](team-data-science-process-lifecycle-detail.md). 
+
+The following diagram provides the detailed task view for each of the role working together on a data science initiative in each stage of the lifecycle. The prescribed documentation artifacts are indicated in the diagram too. 
 
 ![TDSP_SWIMLANE](./media/team-data-science-process-overview/tdsp-swimlane.png)
 
