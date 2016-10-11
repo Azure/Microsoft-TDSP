@@ -55,7 +55,7 @@ To summarize here, the following requirements need to meet before you begin the 
 
 ## 1. Create a project repository (R5)
 
-- Log in to your group VSTS server at *https://<VSTS Server Name\>.visualstudio.com*. 
+- Log in to your group VSTS server at *https://\<VSTS Server Name\>.visualstudio.com*. 
 - Under **Recent projects & teams**, click **Browse**. A window that pops up lists all team projects on the VSTS server. 
 
 	![2](./media/team-data-science-process-project-lead-tasks/project-leads-2-create-project-repo.png)
