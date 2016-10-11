@@ -84,7 +84,7 @@ After you sign in, click **Create New Account** in the upper right corner as sho
 		
 Fill in the information for the VSTS server that you want to create in the **Create your account** wizard with the following values: 
 
-- **Server URL**: Replace *mysamplegroup* with your own *server name*. The URL of your server is going to be: *https://<servername\>.visualstudio.com*. 
+- **Server URL**: Replace *mysamplegroup* with your own *server name*. The URL of your server is going to be: *https://\<servername\>.visualstudio.com*. 
 - **Manage code using:** Select **_Git_**.
 - **Project name:** Enter *GroupCommon*. 
 - **Organize work using:** Choose *Agile*.
@@ -101,7 +101,7 @@ Click **Continue**.
 
 ## 2. GroupCommon Team Project
 
-The **GroupCommon** page (*https://<servername\>.visualstudio.com/GroupCommon*) opens after your VSTS server is created.
+The **GroupCommon** page (*https://\<servername\>.visualstudio.com/GroupCommon*) opens after your VSTS server is created.
 							
 ![6](./media/team-data-science-process-group-manager-tasks/server-created-2.PNG)
 
