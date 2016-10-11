@@ -108,11 +108,11 @@ Change to that directory. Then, run the following command to clone your team pro
 	
 If you are using VSTS as the code-hosting platform, typically, the *HTTPS URL of your team project template repository* is:
 
- ***https://\<VSTS Server Name\>.visualstudio.com/\<Your team project name\>/\_git/\<Your team project template repository name\>***. 
+ ***https://\<VSTS Server Name\>.visualstudio.com/\<Your team project name\>/_git/\<Your team project template repository name\>***. 
 
 In this example, we have:
 
-***https://mysamplegroup.visualstudio.com/MyTeam/\_git/MyTeamProjectTemplate***. 
+***https://mysamplegroup.visualstudio.com/MyTeam/_git/MyTeamProjectTemplate***. 
 
 ![7](./media/team-data-science-process-project-lead-tasks/project-leads-7-clone-team-project-template.png)
 			
@@ -124,7 +124,7 @@ In this example, we have:
 
 If you are using VSTS as the code-hosting platform, typically, the *SSH URL of the team project template repository* is:
 
-***ssh://\<VSTS Server Name\>@\<VSTS Server Name\>.visualstudio.com:22/\<Your Team Project Name>/\_git/\<Your team project template repository name\>.*** 
+***ssh://\<VSTS Server Name\>@\<VSTS Server Name\>.visualstudio.com:22/\<Your Team Project Name>/_git/\<Your team project template repository name\>.*** 
 
 In this example, we have:
 
@@ -140,7 +140,7 @@ Change directory to **GitRepos**, and run the following command to clone your pr
 
 ![9](./media/team-data-science-process-project-lead-tasks/project-leads-9-clone-project-repository.png)
 
-If you are using VSTS as the code-hosting platform, typically, the _HTTPS URL of the Project repository_ is _https://\<VSTS Server Name\>.visualstudio.com/\<Your Team Project Name>/\_git/<Your project repository name\>. In this example, we have _https://mysamplegroup.visualstudio.com/MyTeam/\_git/DSProject1_.
+If you are using VSTS as the code-hosting platform, typically, the _HTTPS URL of the Project repository_ is ***https://\<VSTS Server Name\>.visualstudio.com/\<Your Team Project Name>/_git/<Your project repository name\>***. In this example, we have ***https://mysamplegroup.visualstudio.com/MyTeam/_git/DSProject1***.
 
 **Linux**
 
@@ -148,7 +148,7 @@ If you are using VSTS as the code-hosting platform, typically, the _HTTPS URL of
 
 ![10](./media/team-data-science-process-project-lead-tasks/project-leads-10-clone-project-repository-linux.png)
 
-If you are using VSTS as the code-hosting platform, typically, the _SSH URL of the project repository_ is _ssh://<VSTS Server Name\>@<VSTS Server Name\>.visualstudio.com:22/<Your Team Project Name>/\_git/<Your project repository name\>. In this example, we have _ssh://mysamplegroup@mysamplegroup.visualstudio.com:22/MyTeam/_git/DSProject1_.
+If you are using VSTS as the code-hosting platform, typically, the _SSH URL of the project repository_ is _ssh://<VSTS Server Name\>@<VSTS Server Name\>.visualstudio.com:22/<Your Team Project Name>/\_git/<Your project repository name\>. In this example, we have ***ssh://mysamplegroup@mysamplegroup.visualstudio.com:22/MyTeam/_git/DSProject1***.
 
 ### Copy contents of D3 to D5 
 
