@@ -120,7 +120,7 @@ Feature engineering involves inclusion, aggregation and transformation of raw va
 #### 3.2 Model Training
 
 Depending on type of question you are trying answer, there are multiple modeling algorithms options available. For guidance on choosing the algorithms, see this [article](https://azure.microsoft.com/documentation/articles/machine-learning-algorithm-choice/). NOTE: Though this article is written for Azure Machine Learning, it should be generally useful even when using other frameworks. 
-
+ 
 The process for model training is: 
 
  * The input data for modeling is usually split randomly into a training data set and a test data set. 
@@ -151,7 +151,7 @@ Deploy models and pipeline to a production or production-like environment for fi
 ### How to do it
 Once we have a set of models that perform well, they can be operationalized for other applications to consume. Depending on the business requirements, predictions are made either in real time or on a batch basis. To be operationalized, the models have to be exposed with an open API interface that is easily consumed from various applications such online website, spreadsheets, dashboards, or line of business and backend applications. See example of model operationalization with Azure Machine Learning web service in this [article](https://azure.microsoft.com/documentation/articles/machine-learning-publish-a-machine-learning-web-service/). It is also a good idea to build in telemetry and monitoring of the production model deployment and the data pipeline to help with system status reporting and troubleshooting.  
 
-###Artifacts
+### Artifacts
  
   * Status dashboard of system health and key metrics
   * Final modeling report with deployment details
