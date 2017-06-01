@@ -34,7 +34,7 @@ We have specified four distinct roles for our team personnel:
 
 2. ***Team Lead***. A team lead is managing a team in the data science unit of an enterprise. A team consists of multiple data scientists. For data science unit with only a small number of data scientists, the Group Manager and the Team Lead might be the same person.
 
-3. ***Project Lead***. A project lead manages the daily activities of individual data scientists on a specific data science project. 
+3. ***Project Lead***. A project lead manages the daily activities of individual data scientists on a specific data science project.
 
 4. ***Project Individual Contributor (Data Scientist, Business Analyst, Data Engineer, Architect, etc)***. A project individual contributor executes a data science project. 
 
