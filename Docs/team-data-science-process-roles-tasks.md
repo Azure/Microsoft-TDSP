@@ -36,7 +36,7 @@ We have specified four distinct roles for our team personnel:
 
 3. ***Project Lead***. A project lead manages the daily activities of individual data scientists on a specific data science project.
 
-4. ***Project Lead***. Project Individual Contributor (Data Scientist, Business Analyst, Data Engineer, Architect, etc). A project individual contributor executes a data science project. 
+4. ***Project Individual Contributor***. (Data Scientist, Business Analyst, Data Engineer, Architect, etc). A project individual contributor executes a data science project. 
 
 
 NOTE: Depending on the team, a single person may play more than one roles OR there may be more than one person working on a role. 
