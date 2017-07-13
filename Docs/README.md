@@ -14,7 +14,7 @@
 	ms.devlang="na"
 	ms.topic="article"
 	ms.date="09/22/2016"
-	ms.author="bradsev;hangzh;"/>
+	ms.author="bradsev;hangzh;deguhath"/>
 
 # Team Data Science Process: An Overview
 
@@ -26,10 +26,10 @@ This article provides an overview of TDSP and its main components. We provide a 
 
 TDSP comprises of the following key components :  
 
-* A **data science lifecycle** definition.  
-* A **standardized structure for projects** 
-* **Analytics infrastructure** management 
-* **Productivity Tools and utilities**  
+* A **data science lifecycle** definition  
+* A **standardized project structure** 
+* **Infrastructure and resources** for data science projects 
+* **Tools and utilities** for project execution
 
 ## 1. Data Science Lifecycle 
 
