@@ -14,7 +14,7 @@
 	ms.devlang="na"
 	ms.topic="article"
 	ms.date="09/22/2016"
-	ms.author="bradsev;hangzh;gokuma"/>
+	ms.author="bradsev;hangzh;gokuma;deguhath"/>
     
 # Team Data Science Process Lifecycle 
 
