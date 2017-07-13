@@ -18,10 +18,6 @@ To perform certain stages of a data science project efficiently, TDSP also provi
 ## TDSP resources on Azure
 We provide documentation and [**end-to-end data science walkthroughs and templates**](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process) for TDSP lifecycle stages using different platforms and tools on [**Azure**](https://azure.microsoft.com/en-us/), such as Azure ML, HDInsight, Microsoft R server, SQL-server, Azure Data Lake etc.
 
-## Release Notes
-
-This is version 0.1.2 of TDSP. Version 0.1.1 was released in September 2016. We are continuously improving TDSP based on our further accumulated experience, and customer feedback. 
-
 ## Contributing to TDSP
 
 We believe that with the help of the data science community, we can make TDSP even better, and can benefit more enterprises and individual data scientists to be more efficient. We welcome contributions to TDSP, either on documentation or on workflow or implementing TDSP on different tools for versioning or work items management. Feel free to contribute pages at [TDSP/wiki](https://github.com/Azure/Microsoft-TDSP/wiki). 
@@ -29,6 +25,10 @@ We believe that with the help of the data science community, we can make TDSP ev
 If you have some useful data science tools and utilities to share, we encourage you to contribute to 
 the [TDSP-Utilities Github repository](https://github.com/Azure/Azure-TDSP-Utilities).  
 
+
+## Release Notes
+
+This is version 0.1.2 of TDSP. Version 0.1.1 was released in September 2016. We are continuously improving TDSP based on our further accumulated experience, and customer feedback. 
 
 ## Questions or suggestions
 
