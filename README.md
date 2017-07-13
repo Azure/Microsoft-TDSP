@@ -33,7 +33,7 @@ the [TDSP-Utilities Github repository](https://github.com/Azure/Azure-TDSP-Utili
 
 <hr>
 
-![TDSP_LIFECYCLE](./Docs/media/team-data-science-process-overview/tdsp-lifecycle.png) 
+![TDSP_LIFECYCLE](./Docs/media/overview/tdsp-lifecycle.png) 
 
 <hr>
 Last updated: July 12, 2017
