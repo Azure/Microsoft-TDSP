@@ -10,7 +10,7 @@ TDSP is an agile, iterative, data science process for executing and delivering a
 - project scoping and reporting document and artifact templates
 - tools to assist with data science tasks
 
-To know more about TDSP and about how to adopt the process, check out the links above. 
+To learn more about TDSP and about how to adopt the process, check out the links above. 
 
 
 ### Release Notes
