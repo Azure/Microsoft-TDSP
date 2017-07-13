@@ -29,6 +29,8 @@ If you have some useful data science tools and utilities to share, we encourage 
 the [TDSP-Utilities Github repository](https://github.com/Azure/Azure-TDSP-Utilities).  
 
 <hr>
-Last updated: July 12, 2017
 
 ![TDSP_LIFECYCLE](./Docs/media/team-data-science-process-overview/tdsp-lifecycle.png) 
+
+<hr>
+Last updated: July 12, 2017
