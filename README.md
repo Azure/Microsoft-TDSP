@@ -10,7 +10,7 @@ TDSP is an agile, iterative, data science process for executing and delivering a
 - tools to assist with data science project tasks (e.g. version control,  data exploration and modeling, work planning)
 - distributed resources for project execution (e.g. version control, and cloud compute and storage resources)
 
-For execution of data science projects, TDSP provides guidelines on how to structure [**collaborative teams and tasks for data science projects**](Docs/team-data-science-process-roles-tasks.md), and [**execute data science projects using Agile planning and version control**](Docs/team-data-science-process-project-execution.md).
+For execution of data science projects, TDSP provides guidelines on how to [**structure collaborative teams and tasks**](Docs/team-data-science-process-roles-tasks.md) for data science projects, and [**execute data science projects using Agile planning and version control**](Docs/team-data-science-process-project-execution.md).
 
 To perform certain stages of a data science project efficiently, we also provide [**data exploration and (semi)automated modeling tools in R and Python**](https://github.com/Azure/Azure-TDSP-Utilities).
 
