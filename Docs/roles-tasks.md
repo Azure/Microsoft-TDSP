@@ -45,7 +45,7 @@ NOTE: Depending on the team, a single person may play more than one roles OR the
 
 The following picture depicts the top-level tasks for personnel by role in adopting and implementing the Team Data Science Process as conceptualized by Microsoft. 
 
-![PROJECT_EXECUTE](./media/team-data-science-process-overview-components-roles-tasks/overview-tdsp-top-level.png)
+![PROJECT_EXECUTE](./media/overview-components-roles-tasks/overview-tdsp-top-level.png)
 
 This schema and the following, more detailed outline of tasks that are assigned to each role in the TDSP should help you choose the appropriate tutorial based on your responsibilities in the organization.
 
@@ -62,7 +62,7 @@ The following tasks are completed by the Group Manager (or a designated TDSP sys
 - Create a **utility repository**, and seed it from the utility repository developed by Microsoft TDSP team. The TDSP utility repository from Microsoft provides a set of useful utilities to make the work of a data scientist more efficient, including utilities for interactive data exploration, analysis, and reporting, and for baseline modeling and reporting.
 - Set up the **security control policy** of these two repositories on your group account.  
 
-For detailed step-by-step instructions, see [Group Manager tasks for a data science team](team-data-science-process-group-manager-tasks.md). 
+For detailed step-by-step instructions, see [Group Manager tasks for a data science team](group-manager-tasks.md). 
 
 
 ## Team Lead tasks
@@ -76,7 +76,7 @@ The following tasks are completed by the Team Lead (or a designated team project
 - (Optional) Mount the Azure file storage to the **Data Science Virtual Machine** (DSVM) of the team lead and add data assets on it.
 - Set up the **security control** by adding team members and configure their privileges. 
 
-For detailed step-by-step instructions, see [Team Lead tasks for a data science team](team-data-science-process-team-lead-tasks.md).  
+For detailed step-by-step instructions, see [Team Lead tasks for a data science team](team-lead-tasks.md).  
 
 
 ## Project Lead tasks
@@ -88,7 +88,7 @@ The following tasks are completed by the Project Lead to adopt the TDSP:
 - (Optional) Mount the Azure file storage to the **Data Science Virtual Machine** (DSVM) of the Project Lead and add project data assets on it.
 - Set up the **security control** by adding project members and configure their privileges. 
 
-For detailed step-by-step instructions, see [Project Lead tasks for a data science team](team-data-science-process-project-lead-tasks.md). 
+For detailed step-by-step instructions, see [Project Lead tasks for a data science team](project-lead-tasks.md). 
 
 ## Project Individual Contributor tasks
 
@@ -99,7 +99,7 @@ The following tasks are completed by a Project Individual Contributor (usually a
 - Execute the project. 
 
  
-For detailed step-by-step instructions for onboarding onto a project, see [Project Individual Contributors for a data science team](team-data-science-process-project-ic-tasks.md). 
+For detailed step-by-step instructions for onboarding onto a project, see [Project Individual Contributors for a data science team](project-ic-tasks.md). 
 
 
 ## Data science project execution
@@ -110,7 +110,7 @@ The instructions provided for project execution have been developed based on the
 
 The following figure outlines this workflow for project execution using the TDSP.
 
-![Typical Data Science Project Execution](./media/team-data-science-process-overview-components-roles-tasks/overview-project-execute.png)
+![Typical Data Science Project Execution](./media/overview-components-roles-tasks/overview-project-execute.png)
 
 The workflow includes steps that can be grouped into three activities:
 
@@ -118,4 +118,4 @@ The workflow includes steps that can be grouped into three activities:
 - Developing artifacts on git branches to address work items (Data Scientist)
 - Code review and merging branches with master branches (Project Lead or other team members)
 
-For detailed step-by-step instructions on project execution workflow, see [Execution of data science projects](team-data-science-process-project-execution.md).
+For detailed step-by-step instructions on project execution workflow, see [Execution of data science projects](project-execution.md).
