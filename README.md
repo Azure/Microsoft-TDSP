@@ -1,6 +1,6 @@
 # Team Data Science Process from Microsoft
 
-[**Overview**](Docs/README.md) | [**Data Science Lifecycle**](Docs/team-data-science-process-lifecycle-detail.md) | [**Project Template**](https://github.com/Azure/Azure-TDSP-ProjectTemplate) | [**TDSP on Azure**](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process)
+[**Overview**](Docs/README.md) | [**Data Science Lifecycle**](Docs/lifecycle-detail.md) | [**Project Template**](https://github.com/Azure/Azure-TDSP-ProjectTemplate) 
 
 <hr>
 
@@ -14,6 +14,8 @@ TDSP is an agile, iterative, data science process for executing and delivering a
 For execution of data science projects, TDSP provides guidelines on how to [**structure collaborative teams and tasks**](Docs/roles-tasks.md) for data science projects, and [**execute data science projects using Agile planning and version control**](Docs/project-execution.md).
 
 To perform certain stages of a data science project efficiently, TDSP also provides [**data exploration and (semi)automated modeling tools in R and Python**](https://github.com/Azure/Azure-TDSP-Utilities).
+
+We provide documentation and [**end-to-end data science walkthroughs and templates**](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process) for TDSP lifecycle stages using multiple platforms and tools on Azure, such as Azure ML, HDInsight, Microsoft R server, SQL-server, Azure Data Lake etc.
 
 
 ## Release Notes
