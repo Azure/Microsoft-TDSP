@@ -43,7 +43,7 @@ The following diagram provides the detailed task view for each of the role worki
 
 ![TDSP_SWIMLANE](./media/overview/tdsp-swimlane.png)
 
-## 2. Standardized structure for projects
+## 2. Standardized project structure
 Having all projects share a directory structure and use templates for project documents makes it easy for the team members to find information about their projects. All code and documents are stored in a version control system (VCS) like Git, TFS, or Subversion to enable team collaboration. Tracking tasks and features in an Agile project tracking system like Jira, Rally, Visual Studio Team Services, and optionally linking them to a VCS allows closer tracking of code for individual features and enables teams to obtain better cost estimates. TDSP recommends creating a separate **repository** for each project on the VCS for versioning, information security, and collaboration. The standardized structure for all projects helps build institutional knowledge across the organization. 
 
 We provide templates for the folder structure and required documents. The folder structure organizes files such as code for data exploration, feature extraction, and model iterations in standard locations. This makes it easier for team members to understand work done by others and to add new members to teams. It is easy to view and update document templates in markdown format. Use templates to provide checklists with key questions for each project to insure problem is well defined and deliverables meet the quality expected. Examples include:
@@ -53,15 +53,17 @@ We provide templates for the folder structure and required documents. The folder
 * model reports to document the derived features
 * model performance metrics such as ROC curves or MSE
 
+![TDSP_DIR_STRUCT](./media/overview/tdsp-dir-structure.png) 
+
 The directory structure can be cloned from [Github](https://github.com/Azure/Azure-TDSP-ProjectTemplate). 
 
-## 3. Management of Analytics Infrastructure
+## 3. Infrastructure and resources for data science projects
 TDSP provides recommendations for managing shared analytics and storage infrastructure such as cloud file systems for storing datasets, databases, Big Data (Hadoop, Spark) clusters, and machine learning services. The analytics and storage infrastructure can be on the cloud or On-premises. This is where raw and processed datasets are stored. This infrastructure enables reproducible analysis. It also avoids duplication, which can lead to inconsistencies and unnecessary infrastructure costs. Tools are provided to provision the shared resources, track them, and allow each team member to connect to those resources securely. It is also a good practice have project members create a consistent compute environment so experiments can be replicated and validated by different team members. 
 
 Here is an example of a team working on multiple projects and sharing various cloud analytics infrastructure components. 
 
 ![TDSP_INFRA](./media/overview/tdsp-analytics-infra.png)
-## 4. Productivity tools and utilities
+## 4. Tools and utilities for project execution
 
 Introducing processes in most organizations is challenging. By providing tools to implement the data science process and lifecycle, we not only get the benefits of productivity but also of consistency in its adoption. TDSP provides an initial set of tools and scripts to jump start adoption of TDSP within a team and to automate some of the common tasks in the data science lifecycle such as data exploration and baseline modeling. There is a well-defined structure provided for individuals to contribute shared tools and utilities into their team’s shared code repository.  These resources can then be leveraged by other projects within the team or the organization. In future TDSP also plans to enable the contributions of tools and utilities to the whole community. 
 The TDSP utilities can be cloned from [Github](https://github.com/Azure/Azure-TDSP-Utilities). 
