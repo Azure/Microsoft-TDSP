@@ -1,16 +1,18 @@
 # Team Data Science Process from Microsoft
 
-[**Overview**](Docs/README.md) | [**Data Science Lifecycle**](Docs/team-data-science-process-lifecycle-detail.md) | [**Roles and Tasks**](Docs/team-data-science-process-roles-tasks.md) | [**Project Execution**](Docs/team-data-science-process-project-execution.md) | [**Data Exploration and Modeling Tools**](https://github.com/Azure/Azure-TDSP-Utilities) | [**Project Template**](https://github.com/Azure/Azure-TDSP-ProjectTemplate) | [**TDSP on Azure**](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process)
+[**Overview**](Docs/README.md) | [**Data Science Lifecycle**](Docs/team-data-science-process-lifecycle-detail.md) | [**Project Template**](https://github.com/Azure/Azure-TDSP-ProjectTemplate) | [**TDSP on Azure**](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process)
 <hr>
 
 This repository contains the **Team Data Science Process (TDSP) from Microsoft**. 
-TDSP is an agile, iterative, data science process for executing and delivering advanced analytics solutions. It is designed to to improve collaboration and efficiency of data science teams in enterprise organizations. It is supported through the following components:
+TDSP is an agile, iterative, data science process for executing and delivering advanced analytics solutions. It is designed to to improve collaboration and efficiency of data science teams in enterprise organizations. It is supported through four key components:
 - a lifecycle that defines the steps in project development
-- a standardized project structure, including project scoping and reporting documents
+- a standardized project template, including structure, scoping and reporting documents
 - tools to assist with data science project tasks (e.g. version control,  data exploration and modeling, work planning)
 - distributed resources for project execution (e.g. version control, and cloud compute and storage resources)
 
-To learn more about TDSP and about how to adopt the process, check out the links above. 
+For execution of data science projects, TDSP provides guidelines on how to structure collaborative [teams and tasks for data science projects](Docs/team-data-science-process-roles-tasks.md), and [execute data science projects using Agile planning and version control](Docs/team-data-science-process-project-execution.md).
+
+To perform certain stages of a data science project efficiently, we also provide [data exploration and (semi)automated modeling tools in R and Python](https://github.com/Azure/Azure-TDSP-Utilities).
 
 
 ### Release Notes
