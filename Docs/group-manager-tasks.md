@@ -19,11 +19,11 @@
 
 # Group Manager tasks for a data science team
 
-This topic outlines the tasks that a Group Mnager is expected to complete for hist/her data science organization. The objective is to establish collaborative group environment that standardizes on the [Team Data Science Process](README.md) (TDSP). For an outline of the personnel roles and their associated tasks that are handled by a data science team standardizing on this process, see [Team Data Science Process: roles and tasks](team-data-science-process-roles-tasks.md).
+This topic outlines the tasks that a Group Mnager is expected to complete for hist/her data science organization. The objective is to establish collaborative group environment that standardizes on the [Team Data Science Process](README.md) (TDSP). For an outline of the personnel roles and their associated tasks that are handled by a data science team standardizing on this process, see [Team Data Science Process: roles and tasks](roles-tasks.md).
 
 The **Group Manager** is the manager of the entire data science unit in an enterprise. A data science unit may have multiple teams, each of which is working on multiple data science projects in distinct business verticals. A Group Manager may delegate their tasks to a surrogate, but the tasks associated with the role are the same. There are six main tasks as shown in the following diagram:
 
-![0](./media/team-data-science-process-group-manager-tasks/tdsp-group-manager.png)
+![0](./media/group-manager-tasks/tdsp-group-manager.png)
 
 
 >[AZURE.NOTE] We outline the steps needed to set up a TDSP group environment using VSTS in the instructions that follow. We specify how to accomplish these tasks with VSTS because that is how we implement TDSP at Microsoft. If another code hosting platform is used for your group, the tasks that need to be completed by the group manager generally do not change. But the way to complete these tasks is going to be different.
@@ -50,9 +50,9 @@ This tutorial uses abbreviated names for repositories and directories. These def
 
 ### Pre-requisites for cloning repositories and checking code in and out
  
-- Git must be installed on your machine. If you are using a Data Science Virtual Machine (DSVM), Git has been pre-installed and you are good to go. Otherwise, see the sections **Appendix** in the [Data science resources](team-data-science-process-resources.md) tutorial.  
+- Git must be installed on your machine. If you are using a Data Science Virtual Machine (DSVM), Git has been pre-installed and you are good to go. Otherwise, see the sections **Appendix** in the [Data science resources](resources.md) tutorial.  
 - If you are using a **Windows DSVM**, you need to have [Git Credential Manager (GCM)](https://github.com/Microsoft/Git-Credential-Manager-for-Windows) installed on your machine. In the README.md file, scroll down to the **Download and Install** section and click the *latest installer*. This takes you to the latest installer page. Download the .exe installer from here and run it. 
-- If you are using **Linux DSVM**, create an SSH public key on your DSVM and add it to your group VSTS server. For more information about SSH, see the **Create SSH public key** section in [Data science resources](team-data-science-process-resources.md) topic.
+- If you are using **Linux DSVM**, create an SSH public key on your DSVM and add it to your group VSTS server. For more information about SSH, see the **Create SSH public key** section in [Data science resources](resources.md) topic.
 
 
 ## 1. Create Account on VSTS server
@@ -68,19 +68,19 @@ The VSTS server hosts the following repositories:
 	
 Go to [Visual Studio online](https://www.visualstudio.com/), click **Sign in** in the upper right corner and sign into your Microsoft account. 
 	
-![1](./media/team-data-science-process-group-manager-tasks/login.PNG)
+![1](./media/group-manager-tasks/login.PNG)
 
 If you do not have a Microsoft account, click **Sign up now** to create a Microsoft account, and then sign in using this account. 
 
 If your organization has a Visual Studio/MSDN subscription, click the green **Sign in with your work or school account** box and sign in with the credentials associated with this subscription. 
 		
-![2](./media/team-data-science-process-group-manager-tasks/signin.PNG)
+![2](./media/group-manager-tasks/signin.PNG)
 
 
 		
 After you sign in, click **Create New Account** in the upper right corner as shown in the following image:
 		
-![3](./media/team-data-science-process-group-manager-tasks/create-account-1.PNG)
+![3](./media/group-manager-tasks/create-account-1.PNG)
 		
 Fill in the information for the VSTS server that you want to create in the **Create your account** wizard with the following values: 
 
@@ -90,11 +90,11 @@ Fill in the information for the VSTS server that you want to create in the **Cre
 - **Organize work using:** Choose *Agile*.
 - **Host your projects in:** Choose a geo location. In this example, we choose *South Central US*. 
 		
-![4](./media/team-data-science-process-group-manager-tasks/fill-in-account-information.png)
+![4](./media/group-manager-tasks/fill-in-account-information.png)
 
 >[AZURE.NOTE] If you see the following pop-up window after you click **Create new account**, then you need to click **Change details** to display all the fields itemized.
 
-![5](./media/team-data-science-process-group-manager-tasks/create-account-2.png)
+![5](./media/group-manager-tasks/create-account-2.png)
 
 
 Click **Continue**. 
@@ -103,7 +103,7 @@ Click **Continue**.
 
 The **GroupCommon** page (*https://\<servername\>.visualstudio.com/GroupCommon*) opens after your VSTS server is created.
 							
-![6](./media/team-data-science-process-group-manager-tasks/server-created-2.PNG)
+![6](./media/group-manager-tasks/server-created-2.PNG)
 
 ## 3. Create the GroupUtilities (R2) repository
 
@@ -111,15 +111,15 @@ To create the **GroupUtilities** (R2) repository under VSTS server:
 
 - Click **New repository** on the **Version Control** tab of your team project to open the **Create a new repository** wizard. 
 
-![13](./media/team-data-science-process-group-manager-tasks/create-grouputilities-repo-1.png) 
+![13](./media/group-manager-tasks/create-grouputilities-repo-1.png) 
 
 - Select *Git* as the **Type**, and enter *GroupUtilities* as the **Name**, and then click **Create**. 
 
-![14](./media/team-data-science-process-group-manager-tasks/create-grouputilities-repo-2.png)
+![14](./media/group-manager-tasks/create-grouputilities-repo-2.png)
 				
 Now you should see two Git repositories **GroupProjectTemplate** and **GroupUtilities** in the left column of the **Version Control** page: 
 
-![15](./media/team-data-science-process-group-manager-tasks/two-repo-under-groupCommon.PNG)
+![15](./media/group-manager-tasks/two-repo-under-groupCommon.PNG)
 
 
 ## 4. Create the GroupProjectTemplate (R1) repository
@@ -137,20 +137,20 @@ To rename the default **GroupCommon** repository as *GroupProjectTemplate* (refe
 	
 - Click **Collaborate on code** on the **GroupCommon** team project page. This takes you to the default Git repository page of the team project **GroupCommon**. Currently, this Git repository is empty. 
 
-![9](./media/team-data-science-process-group-manager-tasks/rename-groupcommon-repo-3.png)
+![9](./media/group-manager-tasks/rename-groupcommon-repo-3.png)
 		
 - Click **GroupCommon** on the top left corner (highlighted with a red box in the following figure) on the Git repository page of **GroupCommon** and select **Manage repositories** (highlighted with a green box in the following figure). This brings up the **CONTROL PANEL**. 
 - Select the **Version Control** tab of your team project. 
 
-![10](./media/team-data-science-process-group-manager-tasks/rename-groupcommon-repo-4.png)
+![10](./media/group-manager-tasks/rename-groupcommon-repo-4.png)
 
 - Click the **...** to the right of the **GroupCommon** repository on the left panel, and select **Rename repository**. 
 
-![11](./media/team-data-science-process-group-manager-tasks/rename-groupcommon-repo-5.png)
+![11](./media/group-manager-tasks/rename-groupcommon-repo-5.png)
 		
 - In the **Rename the GroupCommon repository** wizard that pops up, enter *GroupProjectTemplate* in the **Repository name** box, and then click **Rename**. 
 
-![12](./media/team-data-science-process-group-manager-tasks/rename-groupcommon-repo-6.png)
+![12](./media/group-manager-tasks/rename-groupcommon-repo-6.png)
 
 
 
@@ -183,7 +183,7 @@ In this step, you clone the Team Data Science Process (TDSP) ProjectTemplate rep
 	`git clone https://github.com/Azure/Azure-TDSP-ProjectTemplate`<br>
 	`git clone https://github.com/Azure/Azure-TDSP-Utilities`
         
-![16](./media/team-data-science-process-group-manager-tasks/two-folder-cloned-from-TDSP-windows.PNG)
+![16](./media/group-manager-tasks/two-folder-cloned-from-TDSP-windows.PNG)
 
 - Using our abbreviated repository names, this is what these scripts have achieved: 
 	- G1 - cloned into -> LG1
@@ -198,7 +198,7 @@ In this step, you clone the GroupProjectTemplate repository (R1) and GroupUtilit
 - Click **CODE**. 
 - Choose the **GroupProjectTemplate** and **GroupUtilities** repositories, copy and save each of the URLs (HTTPS for Windows; SSH for Linux) from the **Clone URL** element, in turn, for use in the following scripts:  
 
-![18](./media/team-data-science-process-group-manager-tasks/find_https_ssh_2.PNG)
+![18](./media/group-manager-tasks/find_https_ssh_2.PNG)
 
 - Change into the **GitRepos\GroupCommon** directory on your Windows or Linux DSVM and run one of the following sets of commands to clone R1 and R2 into that directory.
 		
@@ -209,14 +209,14 @@ Here are the Windows and Linux scripts:
 	git clone <the HTTPS URL of the GroupProjectTemplate repository>
 	git clone <the HTTPS URL of the GroupUtilities repository>
 
-![19](./media/team-data-science-process-group-manager-tasks/clone-two-empty-group-reo-windows-2.PNG)
+![19](./media/group-manager-tasks/clone-two-empty-group-reo-windows-2.PNG)
 
 	# Linux DSVM
 
 	git clone <the SSH URL of the GroupProjectTemplate repository>
 	git clone <the SSH URL of the GroupUtilities repository>
 
-![20](./media/team-data-science-process-group-manager-tasks/clone-two-empty-group-reo-linux-2.PNG)
+![20](./media/group-manager-tasks/clone-two-empty-group-reo-linux-2.PNG)
 
 >[AZURE.NOTE] Expect to receive warning messages that LR1 and LR2 are empty. 	
 
@@ -239,22 +239,22 @@ To achieve these two tasks, run the following scripts in PowerShell console (Win
     wget "https://raw.githubusercontent.com/Azure/Azure-MachineLearning-DataScience/master/Misc/TDSP/tdsp_local_copy_win.ps1" -outfile "tdsp_local_copy_win.ps1"
     .\tdsp_local_copy_win.ps1 1
 
-![21](./media/team-data-science-process-group-manager-tasks/copy-two-folder-to-group-folder-windows-2.PNG)
+![21](./media/group-manager-tasks/copy-two-folder-to-group-folder-windows-2.PNG)
 
 Now you can see that files in directories LG1 and LG1 (except files in the .git directory) have been copied to LR1 and LR2, respectively.
 
-![22](./media/team-data-science-process-group-manager-tasks/copy-two-folder-to-group-folder-windows.PNG)
+![22](./media/group-manager-tasks/copy-two-folder-to-group-folder-windows.PNG)
 
 	# Linux DSVM
 
     wget "https://raw.githubusercontent.com/Azure/Azure-MachineLearning-DataScience/master/Misc/TDSP/tdsp_local_copy_linux.sh"
     bash tdsp_local_copy_linux.sh 1
 
-![23](./media/team-data-science-process-group-manager-tasks/copy-two-folder-to-group-folder-linux-2.PNG)
+![23](./media/group-manager-tasks/copy-two-folder-to-group-folder-linux-2.PNG)
 		
 Now you see that the files in the two folders (except files in the .git directory) are copied to GroupProjectTemplate and GroupUtilities respectively.
 	
-![24](./media/team-data-science-process-group-manager-tasks/copy-two-folder-to-group-folder-linux.PNG)
+![24](./media/group-manager-tasks/copy-two-folder-to-group-folder-linux.PNG)
 
 - Using our abbreviated repository names, this is what these scripts have achieved:
 	- LG1 - files copied into -> LR1
@@ -277,11 +277,11 @@ Run the following commands from the GitRepos\GroupCommon\GroupProjectTemplate di
 
 The -m option lets you set a message for your git commit.
 
-![25](./media/team-data-science-process-group-manager-tasks/push-to-group-server-2.PNG)
+![25](./media/group-manager-tasks/push-to-group-server-2.PNG)
 
 You can see that in your group's VSTS server, in the GroupProjectTemplate repository, the files are synced instantly.
 
-![26](./media/team-data-science-process-group-manager-tasks/push-to-group-server-showed-up-2.PNG)
+![26](./media/group-manager-tasks/push-to-group-server-showed-up-2.PNG)
 
 Finally, change to the **GitRepos\GroupCommon\GroupUtilities** directory and run the same set of git bash commands:
 
@@ -304,6 +304,6 @@ Finally, change to the **GitRepos\GroupCommon\GroupUtilities** directory and run
 
 ## 6. Add group members to the group server
 
-From your group VSTS server's homepage, click the **gear icon** next to your user name in the upper right corner, then select the **Security** tab. You can add members to your group here with various permissions. For more information, see the **Security Control** section in [Data science resources](team-data-science-process-resources.md) topic.
+From your group VSTS server's homepage, click the **gear icon** next to your user name in the upper right corner, then select the **Security** tab. You can add members to your group here with various permissions. For more information, see the **Security Control** section in [Data science resources](resources.md) topic.
 
-![27](./media/team-data-science-process-group-manager-tasks/add_member_to_group.PNG) 
+![27](./media/group-manager-tasks/add_member_to_group.PNG) 

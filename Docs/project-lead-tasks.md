@@ -18,11 +18,11 @@
 
 # Project Lead tasks for a data science team
 
-This tutorial outlines the tasks that a project lead is expected to complete for his/her project team. The objective is to establish collaborative team environment that standardizes on the [Team Data Science Process](README.md) (TDSP). The TDSP is a framework developed by Microsoft that provides a structured sequence of activities to execute cloud-based, predictive analytics solutions efficiently. For an outline of the personnel roles and their associated tasks that are handled by a data science team standardizing on this process, see [Team Data Science Process: roles and tasks](team-data-science-process-roles-tasks.md).
+This tutorial outlines the tasks that a project lead is expected to complete for his/her project team. The objective is to establish collaborative team environment that standardizes on the [Team Data Science Process](README.md) (TDSP). The TDSP is a framework developed by Microsoft that provides a structured sequence of activities to execute cloud-based, predictive analytics solutions efficiently. For an outline of the personnel roles and their associated tasks that are handled by a data science team standardizing on this process, see [Team Data Science Process: roles and tasks](roles-tasks.md).
 
 A **Project Lead** manages the daily activities of individual data scientists on a specific data science project. The workflow for the tasks to be completed by project leads to set up this environment are depicted in the following figure:
 
-![1](./media/team-data-science-process-project-lead-tasks/project-leads-1-tdsp-creating-projects.png)
+![1](./media/project-lead-tasks/project-leads-1-tdsp-creating-projects.png)
 
 This topic currently covers tasks 1,2 and 6 of this workflow for project leads.
 
@@ -41,16 +41,16 @@ This tutorial uses abbreviated names for repositories and directories. These nam
 
 ## 0. Prerequisites
 
-The prerequisites are satisfied by completing the tasks assigned to your group manager outlined in [Group Manager tasks for a data science team](team-data-science-process-group-manager-tasks.md) and to you team lead outlined in [Team lead tasks for a data science team](team-data-science-process-team-lead-tasks.md). 
+The prerequisites are satisfied by completing the tasks assigned to your group manager outlined in [Group Manager tasks for a data science team](group-manager-tasks.md) and to you team lead outlined in [Team lead tasks for a data science team](team-lead-tasks.md). 
 
 To summarize here, the following requirements need to meet before you begin the team lead tasks: 
 
 - Your **group VSTS server** (or group account on some other code-hosting platform) has been set up by your group manager.
 - Your **TeamProjectTemplate repository** (R3) has been set up under your group account by your team lead on the code-hosting platform you plan to use.
 - You have been **authorized** by your team lead to create repositories on your group account for your team.
-- Git must be installed on your machine. If you are using a Data Science Virtual Machine (DSVM), Git has been pre-installed and you are good to go. Otherwise, see the sections **Install Git on Windows and Linux machines** and **Provision Data Science Virtual Machine** in the [Data science resources](team-data-science-process-resources.md) topic.  
+- Git must be installed on your machine. If you are using a Data Science Virtual Machine (DSVM), Git has been pre-installed and you are good to go. Otherwise, see the sections **Install Git on Windows and Linux machines** and **Provision Data Science Virtual Machine** in the [Data science resources](resources.md) topic.  
 - If you are using a **Windows DSVM**, you need to have [Git Credential Manager (GCM)](https://github.com/Microsoft/Git-Credential-Manager-for-Windows) installed on your machine. In the README.md file, scroll down to the **Download and Install** section and click the *latest installer*. This takes you to the latest installer page. Download the .exe installer from here and run it. 
-- If you are using **Linux DSVM**, create an SSH public key on your DSVM and add it to your group VSTS server. For more information about SSH, see **Create SSH public key** section in [Data science resources](team-data-science-process-resources.md) topic.
+- If you are using **Linux DSVM**, create an SSH public key on your DSVM and add it to your group VSTS server. For more information about SSH, see **Create SSH public key** section in [Data science resources](resources.md) topic.
 
 
 ## 1. Create a project repository (R5)
@@ -58,24 +58,24 @@ To summarize here, the following requirements need to meet before you begin the 
 - Log in to your group VSTS server at *https://\<VSTS Server Name\>.visualstudio.com*. 
 - Under **Recent projects & teams**, click **Browse**. A window that pops up lists all team projects on the VSTS server. 
 
-	![2](./media/team-data-science-process-project-lead-tasks/project-leads-2-create-project-repo.png)
+	![2](./media/project-lead-tasks/project-leads-2-create-project-repo.png)
 
 - Click the team project name in which you are going to create your project repository. In this example, click **MyTeam**. 
 - Then, click **Navigate** to be directed to the home page of the team project **MyTeam**:
 
-	![3](./media/team-data-science-process-project-lead-tasks/project-leads-3-create-project-repo-2.png)
+	![3](./media/project-lead-tasks/project-leads-3-create-project-repo-2.png)
 
 - Click **Collaborate on code** to be directed to the git home page of your team project.  
 
-	![4](./media/team-data-science-process-project-lead-tasks/project-leads-4-create-project-repo-3.png)
+	![4](./media/project-lead-tasks/project-leads-4-create-project-repo-3.png)
 
 - Click the downward arrow at the top left corner, and select **+ New repository**. 
 	
-	![5](./media/team-data-science-process-project-lead-tasks/project-leads-5-create-project-repo-4.png)
+	![5](./media/project-lead-tasks/project-leads-5-create-project-repo-4.png)
 
 - In the **Create a new repository** window, input a name for your project git repository. Make sure that you select **Git** as the type of the repository. In this example, we use the name *DSProject1*. 
 
-	![6](./media/team-data-science-process-project-lead-tasks/project-leads-6-create-project-repo-5.png)
+	![6](./media/project-lead-tasks/project-leads-6-create-project-repo-5.png)
 
 - To create your ***DSProject1*** project git repository, click **Create**.
 
@@ -114,13 +114,13 @@ In this example, we have:
 
 ***https://mysamplegroup.visualstudio.com/MyTeam/_git/MyTeamProjectTemplate***. 
 
-![7](./media/team-data-science-process-project-lead-tasks/project-leads-7-clone-team-project-template.png)
+![7](./media/project-lead-tasks/project-leads-7-clone-team-project-template.png)
 			
 **Linux**
 
 	git clone <the SSH URL of the TeamProjectTemplate repository>
 		
-![8](./media/team-data-science-process-project-lead-tasks/project-leads-8-clone-team-project-template-linux.png)
+![8](./media/project-lead-tasks/project-leads-8-clone-team-project-template-linux.png)
 
 If you are using VSTS as the code-hosting platform, typically, the *SSH URL of the team project template repository* is:
 
@@ -138,7 +138,7 @@ Change directory to **GitRepos**, and run the following command to clone your pr
 			
 	git clone <the HTTPS URL of the Project repository>
 
-![9](./media/team-data-science-process-project-lead-tasks/project-leads-9-clone-project-repository.png)
+![9](./media/project-lead-tasks/project-leads-9-clone-project-repository.png)
 
 If you are using VSTS as the code-hosting platform, typically, the _HTTPS URL of the Project repository_ is ***https://\<VSTS Server Name\>.visualstudio.com/\<Your Team Project Name>/_git/<Your project repository name\>***. In this example, we have ***https://mysamplegroup.visualstudio.com/MyTeam/_git/DSProject1***.
 
@@ -146,7 +146,7 @@ If you are using VSTS as the code-hosting platform, typically, the _HTTPS URL of
 
 	git clone <the SSH URL of the Project repository>
 
-![10](./media/team-data-science-process-project-lead-tasks/project-leads-10-clone-project-repository-linux.png)
+![10](./media/project-lead-tasks/project-leads-10-clone-project-repository-linux.png)
 
 If you are using VSTS as the code-hosting platform, typically, the _SSH URL of the project repository_ is _ssh://<VSTS Server Name\>@<VSTS Server Name\>.visualstudio.com:22/<Your Team Project Name>/\_git/<Your project repository name\>. In this example, we have ***ssh://mysamplegroup@mysamplegroup.visualstudio.com:22/MyTeam/_git/DSProject1***.
 
@@ -159,22 +159,22 @@ Now in your local machine, you need to copy the content of _D3_ to _D5_, except 
 	wget "https://raw.githubusercontent.com/Azure/Azure-MachineLearning-DataScience/master/Misc/TDSP/tdsp_local_copy_win.ps1" -outfile "tdsp_local_copy_win.ps1"
 	.\tdsp_local_copy_win.ps1 -role 3
 	
-![11](./media/team-data-science-process-project-lead-tasks/project-leads-11-local-copy-project-lead-new.png)
+![11](./media/project-lead-tasks/project-leads-11-local-copy-project-lead-new.png)
 
 Now you can see in _DSProject1_ folder, all the files (excluding the .git) are copied from _MyTeamProjectTemplate_.
 
-![12](./media/team-data-science-process-project-lead-tasks/project-leads-12-teamprojectTemplate_copied_to_local.png)
+![12](./media/project-lead-tasks/project-leads-12-teamprojectTemplate_copied_to_local.png)
 
 **Linux**
 			
 	wget "https://raw.githubusercontent.com/Azure/Azure-MachineLearning-DataScience/master/Misc/TDSP/tdsp_local_copy_linux.sh"
 	bash tdsp_local_copy_linux.sh 3
 		
-![13](./media/team-data-science-process-project-lead-tasks/project-leads-13-local_copy_project_lead_linux_new.png)
+![13](./media/project-lead-tasks/project-leads-13-local_copy_project_lead_linux_new.png)
 
 Now you can see in _DSProject1_ folder, all the files (except the metadata in .git) are copied from _MyTeamProjectTemplate_.
 
-![14](./media/team-data-science-process-project-lead-tasks/project-leads-14-teamprojectTemplate_copied_to_local_linux_new.png)
+![14](./media/project-lead-tasks/project-leads-14-teamprojectTemplate_copied_to_local_linux_new.png)
 
 
 ### Customize D5 if you need to (Optional)
@@ -203,9 +203,9 @@ You now need to push contents in **_DSProject1_** to _R5_ repository in your tea
  
 > If you are committing to multiple Git repositories, use the same name and email address across all of them. Using the same name and email address proves convenient later on when you build PowerBI dashboards to track your Git activities on multiple repositories.
 
-![15](./media/team-data-science-process-project-lead-tasks/project-leads-15-git-config-name.png)
+![15](./media/project-lead-tasks/project-leads-15-git-config-name.png)
 
 
 ## 6. Create and mount Azure file storage as project resources (Optional)
 
-If you want to create Azure file storage to share data, such as the project raw data or the features generated for your project, so that all project members have access to the same datasets from multiple DSVMs, follow the instructions in sections 3 and 4 of [Team Lead tasks for a data science team](team-data-science-process-team-lead-tasks.md). 
+If you want to create Azure file storage to share data, such as the project raw data or the features generated for your project, so that all project members have access to the same datasets from multiple DSVMs, follow the instructions in sections 3 and 4 of [Team Lead tasks for a data science team](team-lead-tasks.md). 

@@ -18,7 +18,7 @@
 
 # Data and analytical resources for data science teams 
 
-Microsoft provides a full spectrum of data and analytics services/resources, on cloud or on premise, to make the execution of your data science projects efficient and scalable. Guidance for teams implementing data science projects in a trackable, version controlled, and collaborative way is provided by the [Team Data Science Process](README.md) (TDSP).  For an outline of the personnel roles, and their associated tasks that are handled by a data science team standardizing on this process, see [Team Data Science Process: Roles and tasks](./team-data-science-process-roles-tasks.md).
+Microsoft provides a full spectrum of data and analytics services/resources, on cloud or on premise, to make the execution of your data science projects efficient and scalable. Guidance for teams implementing data science projects in a trackable, version controlled, and collaborative way is provided by the [Team Data Science Process](README.md) (TDSP).  For an outline of the personnel roles, and their associated tasks that are handled by a data science team standardizing on this process, see [Team Data Science Process: Roles and tasks](./roles-tasks.md).
 
 The data and analytics services available to data science teams using the TDSP include:
 
@@ -128,16 +128,16 @@ If you are using Linux (CentOS) machines to run the git commands, you need to ad
 		ssh-keygen
 		cat .ssh/id_rsa.pub
 
-![](./media/team-data-science-process-resources/resources-1-generate_ssh.png)
+![](./media/resources/resources-1-generate_ssh.png)
 
 - Copy the entire ssh key including *ssh-rsa*. 
 - Log in to your VSTS server. 
 - Click **<Your Name\>** at the top right corner of the page and click **security**. 
 	
-	![](./media/team-data-science-process-resources/resources-2-user-setting.png)
+	![](./media/resources/resources-2-user-setting.png)
 
 - Click **SSH public keys**, and click **+Add**. 
 
-	![](./media/team-data-science-process-resources/resources-3-add-ssh.png)
+	![](./media/resources/resources-3-add-ssh.png)
 
 - Paste the ssh key just copied into the text box and save.

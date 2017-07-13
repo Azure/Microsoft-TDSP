@@ -19,7 +19,7 @@
 
 # Execution of data science projects
 
-This document describes how a data scientist can execute a data science project in a systematic, version controlled, and collaborative way within a project team by using the [Team Data Science Process](README.md) (TDSP). The TDSP is a framework developed by Microsoft that provides a structured sequence of activities to execute cloud-based, predictive analytics solutions efficiently. For an outline of the personnel roles, and their associated tasks that are handled by a data science team standardizing on this process, see [Team Data Science Process: roles and tasks](team-data-science-process-roles-tasks.md). 
+This document describes how a data scientist can execute a data science project in a systematic, version controlled, and collaborative way within a project team by using the [Team Data Science Process](README.md) (TDSP). The TDSP is a framework developed by Microsoft that provides a structured sequence of activities to execute cloud-based, predictive analytics solutions efficiently. For an outline of the personnel roles, and their associated tasks that are handled by a data science team standardizing on this process, see [Team Data Science Process: roles and tasks](roles-tasks.md). 
 
 This topic includes instructions on how to: 
 
@@ -33,7 +33,7 @@ This topic includes instructions on how to:
 
 The following figure illustrates a typical sprint planning, coding and source-control workflow involved in implementing a data science project:
 
-![1](./media/team-data-science-process-project-execution/project-execution-1-project-execute.png)
+![1](./media/project-execution/project-execution-1-project-execute.png)
 
 
 1. [Terminology](#Terminology-1)
@@ -79,11 +79,11 @@ Follow [this link](https://www.visualstudio.com/en-us/docs/work/scrum/sprint-pla
 
 After your project repository is created under a team project, go to the team **Overview** page and click **Manage work**.
 
-![2](./media/team-data-science-process-project-execution/project-execution-2-sprint-team-overview.png)
+![2](./media/project-execution/project-execution-2-sprint-team-overview.png)
 
 To include a feature in the backlog, click **Backlogs** --> **Features** --> **New**, type in the feature **Title** (usually your project name), and then click **Add** .
 
-![3](./media/team-data-science-process-project-execution/project-execution-3-sprint-team-add-work.png)
+![3](./media/project-execution/project-execution-3-sprint-team-add-work.png)
 
 Double-click the feature you just created. Fill in the descriptions, assign team members for this feature, and set planning parameters for this feature. 
 
@@ -94,15 +94,15 @@ You can also link this feature to the project repository. Click **Add link** und
 
 Under the feature, stories can be added to describe major steps needed to finish the (feature) project. To add a new story, click the **+** sign to the left of the feature in backlog view.  
 
-![4](./media/team-data-science-process-project-execution/project-execution-4-sprint-add-story.png)
+![4](./media/project-execution/project-execution-4-sprint-add-story.png)
 
 You can edit the details of the story, such as the status, description, comments, planning, and priority In the pop-up window.
 
-![5](./media/team-data-science-process-project-execution/project-execution-5-sprint-edit-story.png)
+![5](./media/project-execution/project-execution-5-sprint-edit-story.png)
 
 You can link this story to an existing repository by clicking **+ Add link** under **Development**. 
 
-![6](./media/team-data-science-process-project-execution/project-execution-6-sprint-link-existing-branch.png)
+![6](./media/project-execution/project-execution-6-sprint-link-existing-branch.png)
 
 
 ##  5. <a name='AddTaskunderstory-5'></a>Add a task to a story 
@@ -111,13 +111,13 @@ Tasks are specific detailed steps that are needed to complete each story. After 
 
 To add a task to a story, click the **+** sign next to the story item, select **Task**, and then fill in the detailed information of this task in the pop-up window.
 
-![7](./media/team-data-science-process-project-execution/project-execution-7-sprint-add-task.png)
+![7](./media/project-execution/project-execution-7-sprint-add-task.png)
 
 After the features, stories, and tasks are created, you can view them in the **Backlog** or **Board** views to track their status.
 
-![8](./media/team-data-science-process-project-execution/project-execution-8-sprint-backlog-view.png)
+![8](./media/project-execution/project-execution-8-sprint-backlog-view.png)
 
-![9](./media/team-data-science-process-project-execution/project-execution-9-link-to-a-new-branch.png)
+![9](./media/project-execution/project-execution-9-link-to-a-new-branch.png)
 
 
 ##  6. <a name='Linkaworkitemwithagitbranch-6'></a>Link a work item with a git branch 
@@ -126,17 +126,17 @@ VSTS provides a convenient way to connect a work item (a story or task) with a g
 
 To connect a work item to a new branch, double-click a work item, and in the pop-up window, click **Create a new branch** under **+ Add link**.  
 
-![10](./media/team-data-science-process-project-execution/project-execution-10-sprint-board-view.png)
+![10](./media/project-execution/project-execution-10-sprint-board-view.png)
 
 Provide the information for this new branch, such as the branch name, base git repository and the branch. The git repository  chosen must be the repository under the same team project that the work item belongs to. The base branch can be the master branch or some other existing branch.
 
-![11](./media/team-data-science-process-project-execution/project-execution-11-create-a-branch.png)
+![11](./media/project-execution/project-execution-11-create-a-branch.png)
 
 A good practice is to create a git branch for each story work item. Then, for each task work item, you create a branch based on the story branch. Organizing the branches in this hierarchical way that corresponds to the story-task relationships is helpful when you have multiple people working on different stories of the same project, or you have multiple people working on different tasks of the same story. Conflicts can be minimized when each team member works on a different branch and when each member works on different codes or other artifacts when sharing a branch. 
 
 The following picture depicts the recommended branching strategy for TDSP. You might not need as many branches as are shown here, especially when you only have one or two people working on the same project, or only one person works on all tasks of a story. But separating the development branch from the master branch is always a good practice. This can help prevent the release branch from being interrupted by the development activities. More complete description of git branch model can be found in [A Successful Git Branching Model](http://nvie.com/posts/a-successful-git-branching-model/).
 
-![12](./media/team-data-science-process-project-execution/project-execution-12-git-branches.png)
+![12](./media/project-execution/project-execution-12-git-branches.png)
 
 To switch to the branch that you want to work on, run the following command in a shell command (Windows or Linux). 
 
@@ -146,7 +146,7 @@ Changing the *<branch name\>* to **master** switches you back to the **master** 
 
 You can also link a work item to an existing branch. In the **Detail** page of a work item, instead of clicking **Create a new branch**, you click **+ Add link**. Then, select the branch you want to link the work item to. 
 
-![13](./media/team-data-science-process-project-execution/project-execution-13-link-to-an-existing-branch.png)
+![13](./media/project-execution/project-execution-13-link-to-an-existing-branch.png)
 
 You can also create a new branch in git bash commands. If <base branch name\> is missing, the <new branch name\> is based on _master_ branch. 
 	
@@ -162,7 +162,7 @@ Now suppose you make some change to the *data\_ingestion* branch for the work it
 	git commit -m"added a R scripts"
 	git push origin data_ingestion
 
-![14](./media/team-data-science-process-project-execution/project-execution-14-sprint-push-to-branch.png)
+![14](./media/project-execution/project-execution-14-sprint-push-to-branch.png)
 
 ##  8. <a name='CreateapullrequestonVSTS-8'></a>Create a pull request on VSTS 
 
@@ -170,31 +170,31 @@ When you are ready after a few commits and pushes, to merge the current branch i
 
 Go to the main page of your team project and click **CODE**. Select the branch to be merged and the git repository name that you want to merge the branch into. Then click **Pull Requests**, click **New pull request** to create a pull request review before the work on the branch is merged to its base branch.
 
-![15](./media/team-data-science-process-project-execution/project-execution-15-spring-create-pull-request.png)
+![15](./media/project-execution/project-execution-15-spring-create-pull-request.png)
 
 Fill in some description about this pull request, add reviewers, and send it out.
 
-![16](./media/team-data-science-process-project-execution/project-execution-16-spring-send-pull-request.png)
+![16](./media/project-execution/project-execution-16-spring-send-pull-request.png)
 
 ##  9. <a name='ReviewandMerge-9'></a>Review and merge 
 
 When the pull request is created, your reviewers get an email notification to review the pull requests. The reviewers need to check whether the changes are working or not and test the changes with the requester if possible. Based on their assessment, the reviewers can approve or reject the pull request. 
 
-![17](./media/team-data-science-process-project-execution/project-execution-17-add_comments.png)
+![17](./media/project-execution/project-execution-17-add_comments.png)
 
-![18](./media/team-data-science-process-project-execution/project-execution-18-spring-approve-pullrequest.png)
+![18](./media/project-execution/project-execution-18-spring-approve-pullrequest.png)
 
 After the review is done, the working branch is merged to its base branch by clicking the **Complete** button. You may choose to delete the working branch after it has merged. 
 
-![19](./media/team-data-science-process-project-execution/project-execution-19-spring-complete-pullrequest.png)
+![19](./media/project-execution/project-execution-19-spring-complete-pullrequest.png)
 
 Confirm on the top left corner that the request is marked as **COMPLETED**. 
 
-![20](./media/team-data-science-process-project-execution/project-execution-20-spring-merge-pullrequest.png)
+![20](./media/project-execution/project-execution-20-spring-merge-pullrequest.png)
 
 When you go back to the repository under **CODE**, you are told that you have been switched to the master branch.
 
-![21](./media/team-data-science-process-project-execution/project-execution-21-spring-branch-deleted.png)
+![21](./media/project-execution/project-execution-21-spring-branch-deleted.png)
 
 You can also use the following Git commands to merge your working branch to its base branch and delete the working branch after merging:
 
@@ -202,7 +202,7 @@ You can also use the following Git commands to merge your working branch to its 
 	git merge data_ingestion
 	git branch -d data_ingestion
 
-![22](./media/team-data-science-process-project-execution/project-execution-22-spring-branch-deleted-commandline.png)
+![22](./media/project-execution/project-execution-22-spring-branch-deleted-commandline.png)
 
 
 ##  10. <a name='DataQualityReportUtility-10'></a>Interactive Data Exploration, Analysis, and Reporting (IDEAR) Utility
@@ -242,10 +242,10 @@ To learn how to create Power BI dashboards and reports to track your Git reposit
 
 Here are two simple example dashboards that we build to track Git activities and work items. In the first example dashboard, the git commitment activities are listed by different users, on different dates, and on different repositories. You can easily slice and dice to filter the ones that you are interested in.
 
-![23](./media/team-data-science-process-project-execution/project-execution-23-powerbi-git.png)
+![23](./media/project-execution/project-execution-23-powerbi-git.png)
 
 In the second example dashboard, the work items (stories and tasks) in different iterations are presented. They are grouped by assignees and priority levels, and colored by state.
 
-![24](./media/team-data-science-process-project-execution/project-execution-24-powerbi-workitem.png)
+![24](./media/project-execution/project-execution-24-powerbi-workitem.png)
 
  

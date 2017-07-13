@@ -18,11 +18,11 @@
 
 # Team Lead tasks for a data science team
 
-This topic outlines the tasks that a team lead is expected to complete for their data science team. The objective is to establish collaborative team environment that standardizes on the [Team Data Science Process](README.md) (TDSP). TDSP is an agile, iterative data science methodology to deliver predictive analytics solutions and intelligent applications efficiently. It is designed to help improve collaboration and team learning. The process is a distillation of the best practices and structures from both Microsoft as well as from the industry, needed for successful implementation of data science initiatives to help companies fully realize the benefits of their analytics programs. For an outline of the personnel roles and their associated tasks that are handled by a data science team standardizing on this process, see [Team Data Science Process: Roles and Tasks](team-data-science-process-roles-tasks.md).
+This topic outlines the tasks that a team lead is expected to complete for their data science team. The objective is to establish collaborative team environment that standardizes on the [Team Data Science Process](README.md) (TDSP). TDSP is an agile, iterative data science methodology to deliver predictive analytics solutions and intelligent applications efficiently. It is designed to help improve collaboration and team learning. The process is a distillation of the best practices and structures from both Microsoft as well as from the industry, needed for successful implementation of data science initiatives to help companies fully realize the benefits of their analytics programs. For an outline of the personnel roles and their associated tasks that are handled by a data science team standardizing on this process, see [Team Data Science Process: Roles and Tasks](roles-tasks.md).
 
 A **Team Lead** manages a team in the data science unit of an enterprise. A team consists of multiple data scientists. For data science unit with only a small number of data scientists, the **Group Manager** and the **Team Lead** might be the same person or they could delegate their task to a surrogate. But the tasks themselves do not change. The workflow for the tasks to be completed by team leads to set up this environment are depicted in the following figure:
 
-![1](./media/team-data-science-process-team-lead-tasks/team-leads-1-creating-teams.png)
+![1](./media/team-lead-tasks/team-leads-1-creating-teams.png)
 
 >[AZURE.NOTE] The tasks in blocks 1 and 2 of the figure are needed if you are using Visual Studio Team Services (VSTS) as the code hosting platform and you want to have a separate team project for your own team. Once these tasks are completed, all repositories of your team can be created under this team project. 
 
@@ -58,19 +58,19 @@ The names specified for the repositories and directories in this tutorial have b
 	-  a larger data science group with multiple data science teams that nevertheless wants to optimize inter-team collaboration with activities such as group-level sprint planning. 
 - Teams can choose to have team-specific project templates or team-specific utilities under the single team project for the entire group. In this case, the team leads should create team project template repositories and/or team utilities repositories under the same team project. Name these repositories *<TeamName\>ProjectTemplate* and *<TeamName\>Utilities*, for instance, *TeamJohnProjectTemplate* and *TeamJohnUtilities*. 
 
-In any case, team leads need to let their team members know which template and utilities repositories to adopt when they are setting up and cloning the project and utilities repositories. Project leads should follow the [Project Lead tasks for a data science team](team-data-science-process-project-lead-tasks.md) to create project repositories, whether under separate team projects or under a single team project. 
+In any case, team leads need to let their team members know which template and utilities repositories to adopt when they are setting up and cloning the project and utilities repositories. Project leads should follow the [Project Lead tasks for a data science team](project-lead-tasks.md) to create project repositories, whether under separate team projects or under a single team project. 
 
 
 ## 0. Prerequisites
 
-The prerequisites are satisfied by completing the tasks assigned to your group manager outlined in [Group Manager tasks for a data science team](team-data-science-process-group-manager-tasks.md). To summarize here, the following requirements need to meet before you begin the team lead tasks: 
+The prerequisites are satisfied by completing the tasks assigned to your group manager outlined in [Group Manager tasks for a data science team](group-manager-tasks.md). To summarize here, the following requirements need to meet before you begin the team lead tasks: 
 
 - Your **group VSTS server** (or group account on some other code hosting platform) has been set up by your group manager.
 - Your **GroupProjectTemplate repository** (R1) has been set up on your group account by your group manager on the code hosting platform you plan to use.
 - You have been **authorized** on your group account to create repositories for your team.
-- Git must be installed on your machine. If you are using a Data Science Virtual Machine (DSVM), Git has been pre-installed and you are good to go. Otherwise, see the sections **Install Git on Windows and Linux machines** and **Provision Data Science Virtual Machine** in the [Data science resources](team-data-science-process-resources.md) topic.  
+- Git must be installed on your machine. If you are using a Data Science Virtual Machine (DSVM), Git has been pre-installed and you are good to go. Otherwise, see the sections **Install Git on Windows and Linux machines** and **Provision Data Science Virtual Machine** in the [Data science resources](resources.md) topic.  
 - If you are using a **Windows DSVM**, you need to have [Git Credential Manager (GCM)](https://github.com/Microsoft/Git-Credential-Manager-for-Windows) installed on your machine. In the README.md file, scroll down to the **Download and Install** section and click the *latest installer*. This takes you to the latest installer page. Download the .exe installer from here and run it. 
-- If you are using **Linux DSVM**, create an SSH public key on your DSVM and add it to your group VSTS server. For more information about SSH, see **Create SSH public key** section in [Data science resources](team-data-science-process-resources.md) topic.
+- If you are using **Linux DSVM**, create an SSH public key on your DSVM and add it to your group VSTS server. For more information about SSH, see **Create SSH public key** section in [Data science resources](resources.md) topic.
 	
 ## 1. Create a team project and repositories
 
@@ -85,52 +85,52 @@ Complete this step if you are using VSTS as your code hosting platform for versi
 - Go to your group's VSTS server homepage at URL `https://<VSTS Server Name\>.visualstudio.com`. 
 - Click **New** to create a team project. 
 
-	![2](./media/team-data-science-process-team-lead-tasks/team-leads-2-create-new-team.png)
+	![2](./media/team-lead-tasks/team-leads-2-create-new-team.png)
 
 - A Create team project window asks you to input the Project name (**MyTeam** in this example). Make sure that you select **Agile** as the **Process template** and **Git** as the **Version control**. 
 
-	![3](./media/team-data-science-process-team-lead-tasks/team-leads-3-create-new-team-2.png)
+	![3](./media/team-lead-tasks/team-leads-3-create-new-team-2.png)
 
 - Click **Create project**. Your team project **MyTeam** is created in less than 1 minute. 
 
 - After the team project **MyTeam** is created, click **Navigate to project** button, to be directed to the home page of your team project. 
 
-	![4](./media/team-data-science-process-team-lead-tasks/team-leads-4-create-new-team-3.png)
+	![4](./media/team-lead-tasks/team-leads-4-create-new-team-3.png)
 
 - If you see a **Congratulations!** popup window, click the **Add code** (button in red box). Otherwise, click **Code** (in yellow box). This directs you to the Git repository page of your team project. 
 
-	![5](./media/team-data-science-process-team-lead-tasks/team-leads-5-team-project-home.png)
+	![5](./media/team-lead-tasks/team-leads-5-team-project-home.png)
 
 ### Create the MyProjectTemplate repository (R3) on Git
 
 - On the Git repository page of your team project, click the downward arrow beside repository name **MyTeam**, and select **Manage repositories...**.
 
-	![6](./media/team-data-science-process-team-lead-tasks/team-leads-6-rename-team-project-repo.png)
+	![6](./media/team-lead-tasks/team-leads-6-rename-team-project-repo.png)
 
 - On the **Version control** tab of the control panel of your team project, click **MyTeam**, then select **Rename repository...**. 
 
-	![7](./media/team-data-science-process-team-lead-tasks/team-leads-7-rename-team-project-repo-2.png)
+	![7](./media/team-lead-tasks/team-leads-7-rename-team-project-repo-2.png)
 
 - Input a new name to the repository in the **Rename the MyTeam repository** window. In this example, *MyTeamProjectTemplate*. You can choose something like *<Your team name\>ProjectTemplate*. Click **Rename** to continue.
 
-	![8](./media/team-data-science-process-team-lead-tasks/team-leads-8-rename-team-project-repo-3.png)
+	![8](./media/team-lead-tasks/team-leads-8-rename-team-project-repo-3.png)
 
 ### Create the MyTeamUtilities repository (R4) on Git
 
 - To create a new repository *<your team name\>Utilities* under your team project, click **New repository...** on the **Version control** tab of your team project's control panel.  
 
-	![9](./media/team-data-science-process-team-lead-tasks/team-leads-9-create-team-utilities.png)
+	![9](./media/team-lead-tasks/team-leads-9-create-team-utilities.png)
 
 - In the **Create a new repository** window that pops up, provide a name for this repository. In this example, we name it as *MyTeamUtilities*, which is **R4** in our notation. Choose something like *<your team name\>Utilities*. Make sure that you select **Git** for **Type**. Then, click **Create** to continue.
 
-	![10](./media/team-data-science-process-team-lead-tasks/team-leads-10-create-team-utilities-2.png)
+	![10](./media/team-lead-tasks/team-leads-10-create-team-utilities-2.png)
 
 - Confirm that you see the two new Git repositories created under your team project **MyTeam**. In this example: 
 
 - **MyTeamProjectTemplate** (R3) 
 - **MyTeamUtilities** (R4).
 
-	![11](./media/team-data-science-process-team-lead-tasks/team-leads-11-two-repo-in-team.png)
+	![11](./media/team-lead-tasks/team-leads-11-two-repo-in-team.png)
 
 
 ## 2. Seed your team ProjectTemplate and TeamUtilities repositories
@@ -166,14 +166,14 @@ To begin this procedure:
 	git clone https://<Your VSTS Server name>.visualstudio.com/GroupCommon/_git/GroupProjectTemplate
 	
 
-![12](./media/team-data-science-process-team-lead-tasks/team-leads-12-create-two-group-repos.png)
+![12](./media/team-lead-tasks/team-leads-12-create-two-group-repos.png)
 
 **Linux**
 	
 	git clone ssh://<Your VSTS Server name>@<Your VSTS Server name>.visualstudio.com:22/GroupCommon/_git/GroupProjectTemplate
 	
 	
-![13](./media/team-data-science-process-team-lead-tasks/team-leads-13-clone_two_group_repos_linux.png)
+![13](./media/team-lead-tasks/team-leads-13-clone_two_group_repos_linux.png)
 
 These commands clone your **GroupProjectTemplate** (R1) repository on your group VSTS server to local directory in **GitRepos\GroupCommon** on your local machine. After cloning, directory **GroupProjectTemplate** (D1) is created in directory **GitRepos\GroupCommon**. Here, we assume that your group manager created a team project **GroupCommon**, and the **GroupProjectTemplate** repository is under this team project. 
 
@@ -190,14 +190,14 @@ These commands clone your **MyTeamProjectTemplate** (R3) and **MyTeamUtilities**
 	git clone https://<Your VSTS Server name>.visualstudio.com/<Your Team Name>/_git/MyTeamProjectTemplate
 	git clone https://<Your VSTS Server name>.visualstudio.com/<Your Team Name>/_git/MyTeamUtilities
 
-![14](./media/team-data-science-process-team-lead-tasks/team-leads-14-clone_two_empty_team_repos.png)
+![14](./media/team-lead-tasks/team-leads-14-clone_two_empty_team_repos.png)
 		
 **Linux**
 	
 	git clone ssh://<Your VSTS Server name>@<Your VSTS Server name>.visualstudio.com:22/<Your Team Name>/_git/MyTeamProjectTemplate
 	git clone ssh://<Your VSTS Server name>@<Your VSTS Server name>.visualstudio.com:22/<Your Team Name>/_git/MyTeamUtilities
 	
-![15](./media/team-data-science-process-team-lead-tasks/team-leads-15-clone_two_empty_team_repos_linux.png)
+![15](./media/team-lead-tasks/team-leads-15-clone_two_empty_team_repos_linux.png)
 
 After cloning, two directories **MyTeamProjectTemplate** (D3) and **MyTeamUtilities** (D4) are created in directory **GitRepos\MyTeam**. We have assumed here that you named your team project template and utilities repositories **MyTeamProjectTemplate** and **MyTeamUtilities**. 
 
@@ -211,14 +211,14 @@ To copy the content of the local **GroupProjectTemplate** (D1) folder to the loc
     .\tdsp_local_copy_win.ps1 2
 
 	
-![16](./media/team-data-science-process-team-lead-tasks/team-leads-16-local_copy_team_lead_new.png)
+![16](./media/team-lead-tasks/team-leads-16-local_copy_team_lead_new.png)
 
 ####From the Linux shell for the **Linux DSVM**
 	
 	wget "https://raw.githubusercontent.com/Azure/Azure-MachineLearning-DataScience/master/Misc/TDSP/tdsp_local_copy_linux.sh"
 	bash tdsp_local_copy_linux.sh 2
     
-![17](./media/team-data-science-process-team-lead-tasks/team-leads-17-local-copy-team-lead-linux-new.png)
+![17](./media/team-lead-tasks/team-leads-17-local-copy-team-lead-linux-new.png)
 
 The scripts exclude the contents of the .git directory. The scripts prompt you to provide the **complete paths** to the source directory D1 and to the destination directory D3.
 		
@@ -241,11 +241,11 @@ To add the contents in the (optionally customized) local directories D3 and D4 t
 	git commit -m"push from DSVM"
 	git push
 	
-![18](./media/team-data-science-process-team-lead-tasks/team-leads-18-push-to-group-server-2.png)
+![18](./media/team-lead-tasks/team-leads-18-push-to-group-server-2.png)
 
 The files in the MyTeamProjectTemplate repository of your group's VSTS server are synced nearly instantly when this script is run.
 
-![19](./media/team-data-science-process-team-lead-tasks/team-leads-19-push-to-group-server-showed-up.png)
+![19](./media/team-lead-tasks/team-leads-19-push-to-group-server-showed-up.png)
 
 Now run the same set of four git commands from the **GitRepos\MyTeam\MyTeamUtilities** directory. 
 
@@ -256,12 +256,12 @@ Now run the same set of four git commands from the **GitRepos\MyTeam\MyTeamUtili
  
 > If you are committing to multiple Git repositories, use the same name and email address when you commit to each of them. Using the same name and email address proves convenient later on when you build PowerBI dashboards to track your Git activities on multiple repositories.
 
-![20](./media/team-data-science-process-team-lead-tasks/team-leads-20-git-config-name.png)
+![20](./media/team-lead-tasks/team-leads-20-git-config-name.png)
 
 
 ## 3. Create team data and analytics resources (Optional)
 
-Sharing data and analytics resources with your entire team has performance and cost benefits: team members can execute their projects on the shared resources, save on budgets, and collaborate more efficiently. In this section, we provide instructions on how to create Azure file storage. In the next section, we provide instruction on how to mount Azure file storage to your local machine. For additional information on sharing other resources, such as Azure Data Science Virtual Machines, Azure HDInsight Spark Clusters, see [Azure Data and Analytics Resources](team-data-science-process-resources.md). This topic provides you guidance from a data science perspective on selecting resources that are appropriate for your needs, and links to product pages and other relevant and useful tutorials that we have published.
+Sharing data and analytics resources with your entire team has performance and cost benefits: team members can execute their projects on the shared resources, save on budgets, and collaborate more efficiently. In this section, we provide instructions on how to create Azure file storage. In the next section, we provide instruction on how to mount Azure file storage to your local machine. For additional information on sharing other resources, such as Azure Data Science Virtual Machines, Azure HDInsight Spark Clusters, see [Azure Data and Analytics Resources](resources.md). This topic provides you guidance from a data science perspective on selecting resources that are appropriate for your needs, and links to product pages and other relevant and useful tutorials that we have published.
 
 >[AZURE.NOTE] To avoid data transmitting cross data centers, which might be slow and costly, make sure that the resource group, storage account, and the Azure VM (e.g., DSVM) are in the same Azure data center. 
 
@@ -274,29 +274,29 @@ Run this script from the PowerShell command-line:
 	wget "https://raw.githubusercontent.com/Azure/Azure-MachineLearning-DataScience/master/Misc/TDSP/CreateFileShare.ps1" -outfile "CreateFileShare.ps1"
 	.\CreateFileShare.ps1
 
-![21](./media/team-data-science-process-team-lead-tasks/team-leads-21-create-fileshare-win.png)	
+![21](./media/team-lead-tasks/team-leads-21-create-fileshare-win.png)	
 
 Log in to your Microsoft Azure account when prompted:
 
-![22](./media/team-data-science-process-team-lead-tasks/team-leads-22-file-create-s1.png)
+![22](./media/team-lead-tasks/team-leads-22-file-create-s1.png)
 
 Select the Azure subscription you want to use:
 
-![23](./media/team-data-science-process-team-lead-tasks/team-leads-23-file-create-s2.png)
+![23](./media/team-lead-tasks/team-leads-23-file-create-s2.png)
 
 Select which storage account to use or create a new one under your selected subscription:
 
-![24](./media/team-data-science-process-team-lead-tasks/team-leads-24-file-create-s3.png)
+![24](./media/team-lead-tasks/team-leads-24-file-create-s3.png)
 
 Enter the name of the Azure file storage to create. Only lower case characters, numbers and - are accepted:
 
-![25](./media/team-data-science-process-team-lead-tasks/team-leads-25-file-create-s4.png)
+![25](./media/team-lead-tasks/team-leads-25-file-create-s4.png)
 
 To facilitate mounting and sharing this storage after it is created, save the Azure file storage information into a text file and make a note of the path to its location. In particular, you need this file to mount your Azure file storage to your Azure virtual machines in the next section. 
 
 It is a good practice to check in this text file into your team ProjectTemplate repository. We recommend to put in the directory **Docs\DataDictionaries**. Therefore, this data asset can be accessed by all projects in your team. 
 
-![26](./media/team-data-science-process-team-lead-tasks/team-leads-26-file-create-s5.png)
+![26](./media/team-lead-tasks/team-leads-26-file-create-s5.png)
 
 
 ### Create Azure file storage with a Linux script
@@ -308,25 +308,25 @@ Run this script from the Linux shell:
 
 Log in to your Microsoft Azure account following the instructions on this screen:
 
-![27](./media/team-data-science-process-team-lead-tasks/team-leads-27-file-create-linux-s1.png)
+![27](./media/team-lead-tasks/team-leads-27-file-create-linux-s1.png)
 
 Select the Azure subscription that you want to use:
 
-![28](./media/team-data-science-process-team-lead-tasks/team-leads-28-file-create-linux-s2.png)
+![28](./media/team-lead-tasks/team-leads-28-file-create-linux-s2.png)
 
 Select which storage account to use or create a new one under your selected subscription:
 
-![29](./media/team-data-science-process-team-lead-tasks/team-leads-29-file-create-linux-s3.png)
+![29](./media/team-lead-tasks/team-leads-29-file-create-linux-s3.png)
 
 Enter the name of the Azure file storage to create, only lower case characters, numbers and - are accepted:
 
-![30](./media/team-data-science-process-team-lead-tasks/team-leads-30-file-create-linux-s4.png)
+![30](./media/team-lead-tasks/team-leads-30-file-create-linux-s4.png)
 
 To facilitate accessing this storage after it is created, save the Azure file storage information into a text file and make a note of the path to its location. In particular, you need this file to mount your Azure file storage to your Azure virtual machines in the next section.
 
 It is a good practice to check in this text file into your team ProjectTemplate repository. We recommend to put in the directory **Docs\DataDictionaries**. Therefore, this data asset can be accessed by all projects in your team. 
 
-![31](./media/team-data-science-process-team-lead-tasks/team-leads-31-file-create-linux-s5.png)
+![31](./media/team-lead-tasks/team-leads-31-file-create-linux-s5.png)
 
 
 ## 4. Mount Azure file storage (Optional)
@@ -342,47 +342,47 @@ You are asked to log in first, if you have not logged in.
 
 Click **Enter** or **y** to continue when you are asked if you have an Azure file storage information file, and then input the ***complete path and name** of the file you create in previous step. The information to mount an Azure file storage is read directly from that file and you are ready to go to the next step.
 
-![32](./media/team-data-science-process-team-lead-tasks/team-leads-32-attach-s1.png)
+![32](./media/team-lead-tasks/team-leads-32-attach-s1.png)
 
 > [AZURE.NOTE] If you do not have a file containing the Azure file storage information, the steps to input the information from keyboard are provided at the end of this section.
 
 Then you are asked to enter the name of the drive to be added to your virtual machine. A list of existing drive names is printed on the screen. You should provide a drive name that does not already exist in the list.
 
-![33](./media/team-data-science-process-team-lead-tasks/team-leads-33-attach-s2.png)
+![33](./media/team-lead-tasks/team-leads-33-attach-s2.png)
 
 Confirm that a new F drive has been successfully mounted to your machine.
 
-![34](./media/team-data-science-process-team-lead-tasks/team-leads-34-attach-s3.png)
+![34](./media/team-lead-tasks/team-leads-34-attach-s3.png)
 
 **How to enter the Azure file storage information manually:** 
 If you do not have your Azure file storage information on a text file, you can follow the instructions on the following screen to type in the required subscription, storage account, and Azure file storage information:
 
-![35](./media/team-data-science-process-team-lead-tasks/team-leads-35-attach-s4.png)
+![35](./media/team-lead-tasks/team-leads-35-attach-s4.png)
 
 Type in your Azure subscription name, select the storage account where the Azure file storage is created, and type in the Azure file storage name:
 
-![36](./media/team-data-science-process-team-lead-tasks/team-leads-36-attach-s5.png)
+![36](./media/team-lead-tasks/team-leads-36-attach-s5.png)
 
 ### Mount Azure file storage with a Linux script
 
 	wget "https://raw.githubusercontent.com/Azure/Azure-MachineLearning-DataScience/master/Misc/TDSP/AttachFileShare.sh"
 	bash AttachFileShare.sh
 
-![37](./media/team-data-science-process-team-lead-tasks/team-leads-37-attach-s1-linux.png)
+![37](./media/team-lead-tasks/team-leads-37-attach-s1-linux.png)
 
 You are asked to log in first, if you have not logged in. 
 
 Click **Enter** or **y** to continue when you are asked if you have an Azure file storage information file, and then input the ***complete path and name** of the file you create in previous step. The information to mount an Azure file storage is read directly from that file and you are ready to go to the next step.
 
-![38](./media/team-data-science-process-team-lead-tasks/team-leads-38-attach-s2-linux.png)
+![38](./media/team-lead-tasks/team-leads-38-attach-s2-linux.png)
 
 Then you are asked to enter the name of the drive to be added to your virtual machine. A list of existing drive names is printed on the screen. You should provide a drive name that does not already exist in the list.
 
-![39](./media/team-data-science-process-team-lead-tasks/team-leads-39-attach-s3-linux.png)
+![39](./media/team-lead-tasks/team-leads-39-attach-s3-linux.png)
 
 Confirm that a new F drive has been successfully mounted to your machine.
 
-![40](./media/team-data-science-process-team-lead-tasks/team-leads-40-attach-s4-linux.png)
+![40](./media/team-lead-tasks/team-leads-40-attach-s4-linux.png)
 
 **How to enter the Azure file storage information manually:** 
 If you do not have your Azure file storage information on a text file, you can follow the instructions on the following screen to type in the required subscription, storage account, and Azure file storage information:
@@ -390,20 +390,20 @@ If you do not have your Azure file storage information on a text file, you can f
 - Input **n**.
 - Select the index of the subscription name where the Azure file storage was created in the previous step:
 
-	![41](./media/team-data-science-process-team-lead-tasks/team-leads-41-attach-s5-linux.png)
+	![41](./media/team-lead-tasks/team-leads-41-attach-s5-linux.png)
 
 - Select the storage account under your subscription and type in the Azure file storage name:
 
-	![42](./media/team-data-science-process-team-lead-tasks/team-leads-42-attach-s6-linux.png)
+	![42](./media/team-lead-tasks/team-leads-42-attach-s6-linux.png)
 
 - Enter the name of drive to be added to your machine, which should be distinct from any existing ones:
 
-	![43](./media/team-data-science-process-team-lead-tasks/team-leads-43-attach-s7-linux.png)
+	![43](./media/team-lead-tasks/team-leads-43-attach-s7-linux.png)
 
 
 ## 5. Set up security control policy 
 
-From your group VSTS server's homepage, click the **gear icon** next to your user name in the upper right corner, then select the **Security** tab. You can add members to your team here with various permissions. For more information, see **Security Control** section in [Data science resources](team-data-science-process-resources.md) topic.
+From your group VSTS server's homepage, click the **gear icon** next to your user name in the upper right corner, then select the **Security** tab. You can add members to your team here with various permissions. For more information, see **Security Control** section in [Data science resources](resources.md) topic.
 
-![44](./media/team-data-science-process-team-lead-tasks/team-leads-44-add-team-members.png)
+![44](./media/team-lead-tasks/team-leads-44-add-team-members.png)
 
