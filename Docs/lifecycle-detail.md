@@ -22,7 +22,7 @@ Team Data Science Process (TDSP) provides a recommended lifecycle that you can u
 
 Here is a depiction of the TDSP lifecycle. 
 
-![TDSP_LIFECYCLE](./media/team-data-science-process-overview/tdsp-lifecycle.png) 
+![TDSP_LIFECYCLE](./media/overview/tdsp-lifecycle.png) 
 
 The TDSP data science lifecycle is composed of five major stages that are executed iteratively. This includes:
 
