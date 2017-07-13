@@ -46,14 +46,12 @@ The following diagram provides the detailed task view for each of the role worki
 ## 2. Standardized structure for projects
 Having all projects share a directory structure and use templates for project documents makes it easy for the team members to find information about their projects. All code and documents are stored in a version control system (VCS) like Git, TFS, or Subversion to enable team collaboration. Tracking tasks and features in an Agile project tracking system like Jira, Rally, Visual Studio Team Services, and optionally linking them to a VCS allows closer tracking of code for individual features and enables teams to obtain better cost estimates. TDSP recommends creating a separate **repository** for each project on the VCS for versioning, information security, and collaboration. The standardized structure for all projects helps build institutional knowledge across the organization. 
 
-We provide templates for the folder structure and required documents. The folder structure organizes files such as code for data exploration, feature extraction, and model iterations in standard locations. This makes it easier for team members to understand work done by others and to add new members to teams. It is easy to view and update document templates in markdown format. Use templates to provide checklists with key questions for each project to insure deliverables meet the quality expected . Examples include:
+We provide templates for the folder structure and required documents. The folder structure organizes files such as code for data exploration, feature extraction, and model iterations in standard locations. This makes it easier for team members to understand work done by others and to add new members to teams. It is easy to view and update document templates in markdown format. Use templates to provide checklists with key questions for each project to insure problem is well defined and deliverables meet the quality expected. Examples include:
 
 * a project charter to document the business problem and scope of the project 
 * data reports to document the structure and statistics of the raw data
 * model reports to document the derived features
 * model performance metrics such as ROC curves or MSE
-
-![TDSP_DIR_STRUCT](./media/overview/tdsp-dir-structure.png) 
 
 The directory structure can be cloned from [Github](https://github.com/Azure/Azure-TDSP-ProjectTemplate). 
 
