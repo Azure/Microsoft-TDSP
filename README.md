@@ -1,6 +1,6 @@
 # Team Data Science Process from Microsoft
 
-[**Overview**](Docs/README.md) | [**Data Science Lifecycle**](Docs/lifecycle-detail.md) | [**Project Template**](https://github.com/Azure/Azure-TDSP-ProjectTemplate) | [**Data Science Tools**](https://github.com/Azure/Azure-TDSP-Utilities) | [**Project Execution**](Docs/project-execution.md)
+[**Overview**](Docs/README.md) | [**Data Science Lifecycle**](Docs/lifecycle-detail.md) | [**Project Template**](https://github.com/Azure/Azure-TDSP-ProjectTemplate) | [**Data Science Tools**](https://github.com/Azure/Azure-TDSP-Utilities) | [**Project Execution**](Docs/project-execution.md) | [**TDSP with Azure ML**](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process)
 
 <hr>
 
