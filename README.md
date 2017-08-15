@@ -39,7 +39,7 @@ Should you have any questions or suggestions, please create a new discussion thr
 
 <hr>
 
-![TDSP_LIFECYCLE](./Docs/media/overview/tdsp-lifecycle.png) 
+![TDSP_LIFECYCLE](./Docs/media/overview/tdsp-lifecycle.jpg) 
 
 <hr>
 Last updated: July 12, 2017
