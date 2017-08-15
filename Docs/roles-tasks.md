@@ -28,7 +28,7 @@ You will be able to use this information to implement TDSP on your own code-host
 ## Structures of data science groups and teams
 Data science functions in enterprises may often be organized in the following hierarchy:
 
-***1. Data science Group/s***
+***1. Data science group/s***
 
 ***2. Data science team/s within group/s***
 
