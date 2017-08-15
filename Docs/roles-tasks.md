@@ -26,9 +26,14 @@ This introduction links to tutorials that provide instructions on how to set up 
 We provide detailed guidances using Visual Studio Team Services (VSTS) in the tutorials as our code-hosting platform and agile planning tool to manage team tasks, control access, and manage the repositories. 
 You will be able to use this information to implement TDSP on your own code-hosting and agile planning tool. 
 
-## Definition of four TDSP roles
+## Structures of data science groups and teams
+Data science functions in enterprises may often be organized in the following hierarchy:
+1. Data science Group/s
+	2. Data science team/s within group/s
+In such a structure there will are group and team leads. Typically, a data science project is done by a data science team, which may be composed of project managers (for project management and governance tasks) and data scientists or engineers (individual contributors / tecnhical personnel) who will execute the data science and data engineering parts of the project. Prior to execution, the setup and governance is done by the group, team or project managers.
 
-We have specified four distinct roles for our team personnel:
+## Definition of four TDSP roles
+With the above assumption, we have specified four distinct roles for our team personnel:
 
 1. ***Group Manager***. Group Manager is the manager of the entire data science unit in an enterprise. A data science unit might have multiple teams, each of which is working on multiple data science projects in distinct business verticals. A Group Manager might delegate their tasks to a surrogate, but the tasks associated with the role do not change.
 
@@ -39,7 +44,7 @@ We have specified four distinct roles for our team personnel:
 4. ***Project Individual Contributor***. Data Scientist, Business Analyst, Data Engineer, Architect, etc. A project individual contributor executes a data science project. 
 
 
-NOTE: Depending on the team, a single person may play more than one roles OR there may be more than one person working on a role. 
+**NOTE**: Depending on the organization and team, a single person may play more than one roles OR there may be more than one person working on a role.  
 
 ## Tasks to be completed by four personnel
 
