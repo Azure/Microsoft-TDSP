@@ -17,9 +17,9 @@ To perform certain stages of a data science project efficiently and semi-automat
 
 
 ## TDSP resources on Azure
-We provide documentation and [**end-to-end data science walkthroughs and templates**](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process) for TDSP lifecycle stages using different platforms and tools on [**Azure**](https://azure.microsoft.com/en-us/), such as Azure ML, HDInsight, Microsoft R server, SQL-server, Azure Data Lake etc.
+We provide documentation and [**end-to-end data science process walkthroughs and templates**](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process) using different platforms and tools on [**Azure**](https://azure.microsoft.com/en-us/), such as Azure ML, HDInsight, Microsoft R server, SQL-server, Azure Data Lake etc.
 
-Here are instructions on how to execute [**data science life cycle steps in Azure ML**](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process). 
+In particular, here are instructions on how to execute [**data science life cycle steps in Azure ML**](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process). 
 
 ## Contributing to TDSP
 
