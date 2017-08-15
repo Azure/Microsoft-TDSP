@@ -42,4 +42,4 @@ Should you have any questions or suggestions, please create a new discussion thr
 ![TDSP_LIFECYCLE](./Docs/media/overview/tdsp-lifecycle.jpg) 
 
 <hr>
-Last updated: July 12, 2017
+Last updated: Aug 15, 2017
