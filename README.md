@@ -1,6 +1,6 @@
 # Team Data Science Process from Microsoft
 
-[**Overview**](Docs/README.md) | [**Data Science Lifecycle**](Docs/lifecycle-detail.md) | [**Project Template**](https://github.com/Azure/Azure-TDSP-ProjectTemplate) | [**Data Science Tools**](https://github.com/Azure/Azure-TDSP-Utilities) | [**Project Execution**](Docs/project-execution.md) | [**TDSP with Azure ML**](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process)
+[**Overview**](Docs/README.md) | [**Data Science Lifecycle**](Docs/lifecycle-detail.md) | [**Team Structure**](Docs/roles-tasks.md) | [**Project Template**](https://github.com/Azure/Azure-TDSP-ProjectTemplate) | [**Project Execution**](Docs/project-execution.md) | [**Data Science Tools**](https://github.com/Azure/Azure-TDSP-Utilities) | [**TDSP with Azure ML**](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process)
 
 <hr>
 
@@ -17,6 +17,8 @@ To perform certain stages of a data science project efficiently, TDSP also provi
 
 ## TDSP resources on Azure
 We provide documentation and [**end-to-end data science walkthroughs and templates**](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process) for TDSP lifecycle stages using different platforms and tools on [**Azure**](https://azure.microsoft.com/en-us/), such as Azure ML, HDInsight, Microsoft R server, SQL-server, Azure Data Lake etc.
+
+[**TDSP with Azure ML**](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process)
 
 ## Contributing to TDSP
 
