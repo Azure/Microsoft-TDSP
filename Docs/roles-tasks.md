@@ -28,9 +28,9 @@ You will be able to use this information to implement TDSP on your own code-host
 ## Structures of data science groups and teams
 Data science functions in enterprises may often be organized in the following hierarchy:
 
-1. *** Data science group/s***
+1. ***Data science group/s***
 
-2. *** Data science team/s within group/s***
+2. ***Data science team/s within group/s***
 
 In such a structure there will are group and team leads. Typically, a data science project is done by a data science team, which may be composed of project leads (for project management and governance tasks) and data scientists or engineers (individual contributors / tecnhical personnel) who will execute the data science and data engineering parts of the project. Prior to execution, the setup and governance is done by the group, team or project leads.
 
