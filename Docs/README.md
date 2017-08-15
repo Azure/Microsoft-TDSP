@@ -35,7 +35,7 @@ TDSP comprises of the following key components :
 
 Data Science is a highly iterative discovery process with emphasis on evaluating and validating each step of the process. The process iterations refine the hypotheses and predictive models to obtain a sound solution. The data science lifecycle defines a systematic sequence of steps that starts with the planning step, where the business problem is framed, proceeds to the development of predictive analytics models, and completes with their consumption of predictions by intelligent applications. If you are using an existing lifecycle like [CRISP-DM](https://wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining), [KDD](https://wikipedia.org/wiki/Data_mining#Process) or your own custom process that is working well in your organization, you can still use TDSP in the context of those development lifecycles. If you dont have one in use already, TDSP provides a staged data science lifecycle for you to adopt. At a high level, the different methodologies have much in common. You can easily map the correspondences between the steps in the TDSP lifecycle and in these other popular methodologies. Here is a depiction of the TDSP lifecycle. 
 
-![TDSP_LIFECYCLE](./media/overview/tdsp-lifecycle.png) 
+![TDSP_LIFECYCLE](./media/overview/tdsp-lifecycle.jpg) 
 
 Details of each stage of the lifecycle in TDSP are found [here](lifecycle-detail.md). 
 
