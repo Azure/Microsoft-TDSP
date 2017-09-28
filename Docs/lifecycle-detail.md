@@ -95,7 +95,7 @@ In addition to the initial ingestion of data, you will typically need to setup a
 ### Artifacts
 The following are the deliverables in this stage.
 
- * **[Data Quality Report](https://github.com/Azure/Azure-TDSP-ProjectTemplate/blob/master/Docs/DataReport/DataSummaryReport.md)** : This report contains data summaries, relationships between each attribute and target, variable ranking etc. The [IDEAR](https://github.com/Azure/Azure-TDSP-Utilities/blob/master/DataScienceUtilities/DataReport-Utils) tool provided as part of TDSP can help with the quickly generating this report on any tabular dataset like a CSV or relational table. 
+ * **[Data Quality Report](https://github.com/Azure/Azure-TDSP-ProjectTemplate/blob/master/Docs/Data_Report/DataSummaryReport.md)** : This report contains data summaries, relationships between each attribute and target, variable ranking etc. The [IDEAR](https://github.com/Azure/Azure-TDSP-Utilities/blob/master/DataScienceUtilities/DataReport-Utils) tool provided as part of TDSP can help with the quickly generating this report on any tabular dataset like a CSV or relational table. 
  
  * Solution Architecture: This can be a diagram and/or description of your data pipeline used to run scoring or predictions on new data once you have built a model. It will also contain the pipeline to retrain your model based on new data. The document is stored in this [directory](https://github.com/Azure/Azure-TDSP-ProjectTemplate/tree/master/Docs/Project) when using the TDSP directory structure template.   
  
