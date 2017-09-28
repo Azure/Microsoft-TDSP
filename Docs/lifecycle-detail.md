@@ -135,7 +135,7 @@ We provide a [Automated Modeling and Reporting tool](https://github.com/Azure/Az
 ### Artifacts
 The artifacts produced in this stage includes:
 
- * **[Feature Sets](https://github.com/Azure/Azure-TDSP-ProjectTemplate/blob/master/Docs/DataReport/Data%20Defintion.md#feature-sets)**: The features developed for the modeling are described in the in the Feature Set section of the Data Definition report. It contains pointers to the code to generate the features and description on how the feature was generated.  
+ * **[Feature Sets](https://github.com/Azure/Azure-TDSP-ProjectTemplate/blob/master/Docs/Data_Report/Data%20Defintion.md#feature-sets)**: The features developed for the modeling are described in the in the Feature Set section of the Data Definition report. It contains pointers to the code to generate the features and description on how the feature was generated.  
  
  * **[Modeling Report](https://github.com/Azure/Azure-TDSP-ProjectTemplate/blob/master/Docs/Model/Model%201/Model%20Report.md)**: For each models that are tried, a standard report following a specified TDSP template is produced. The  
 
