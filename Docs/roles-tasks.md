@@ -32,7 +32,7 @@ Data science functions in enterprises may often be organized in the following hi
 
 2. ***Data science team/s within group/s***
 
-In such a structure there will are group and team leads. Typically, a data science project is done by a data science team, which may be composed of project leads (for project management and governance tasks) and data scientists or engineers (individual contributors / tecnhical personnel) who will execute the data science and data engineering parts of the project. Prior to execution, the setup and governance is done by the group, team or project leads.
+In such a structure there will are group and team leads. Typically, a data science project is done by a data science team, which may be composed of project leads (for project management and governance tasks) and data scientists or engineers (individual contributors / technical personnel) who will execute the data science and data engineering parts of the project. Prior to execution, the setup and governance is done by the group, team or project leads.
 
 ## Definition of four TDSP roles
 With the above assumption, we have specified four distinct roles for our team personnel:
