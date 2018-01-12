@@ -2,6 +2,8 @@
 
 ## NOTE: This page will be deprecated. Please visit the new site for Team Data Science Process (TDSP) at: [https://aka.ms/tdsp](https://aka.ms/tdsp)
 
+<hr>
+
 [**Overview**](Docs/README.md) | [**Lifecycle**](Docs/lifecycle-detail.md) | [**Roles & Tasks**](Docs/roles-tasks.md) | [**Project Template**](https://github.com/Azure/Azure-TDSP-ProjectTemplate) | [**Project Execution**](Docs/project-execution.md) | [**Data Science Utilities**](https://github.com/Azure/Azure-TDSP-Utilities)
 
 <hr>
