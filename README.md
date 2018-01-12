@@ -1,6 +1,7 @@
 # Team Data Science Process from Microsoft
 
-## NOTE: This page will be deprecated. Please visit the new site for Team Data Science Process (TDSP) at: [https://aka.ms/tdsp](https://aka.ms/tdsp)
+## NOTE: This page will be deprecated. 
+## Please visit the new site for Team Data Science Process (TDSP) at: [https://aka.ms/tdsp](https://aka.ms/tdsp)
 
 <hr>
 
